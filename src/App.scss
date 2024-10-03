@@ -1,0 +1,119 @@
+$primary: #0a0a33;
+$secondary: #f0f0f0;
+$success: #008645;
+$danger: #e85359;
+$dark: #000000;
+$white: #ffffff;
+$info: #0da9e5;
+$warning: #f7936f;
+$light: #c0c0c0;
+$modal-backdrop-bg: rgba(52, 64, 84, 0.7);
+$border-radius-sm: 2px;
+$border-radius-lg: 10px;
+$box-shadow-sm: 0 0px 4px rgba(0, 0, 0, 0.1);
+$border-color: #dadada;
+
+$h2-font-size: 24px;
+$h3-font-size: 22px;
+$h5-font-size: 18px;
+
+// $h1-font-size: 50px;
+// $h4-font-size: 20px;
+// $h6-font-size: 16px;
+
+@import "~bootstrap/scss/bootstrap";
+// @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  // font-family: "Manrope", sans-serif;
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #0a0a33;
+  --nav-border: #3b60ab;
+  --nav-bg: #121651;
+  --secondary: #f0f0f0;
+  --grey: #c0c0c0;
+  --hero-text: linear-gradient(180deg, #f9a61a 0%, #d52e27 100%);
+  --animating-bg: linear-gradient(-60deg, #0a0a33 30%, #3b60ab 30%);
+  --border: #dadada;
+  --layout-bg: #f0f4fa;
+  --white: #ffffff;
+  --success: #008645;
+  --danger: #e85359;
+  --dark: #000000;
+  --info: #0da9e5;
+  --warning: #f9a61a;
+  --box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+  --fs-15: 15px;
+  --fs-14: 14px;
+  --fs-13: 13px;
+  --fs-12: 12px;
+  --letter-spacing: 0.5px;
+}
+.layout {
+  background-color: var(--primary);
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(204, 25, 25, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(248, 241, 241, 0);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.fs-15 {
+  font-size: var(--fs-15);
+}
+.fs-14 {
+  font-size: var(--fs-14);
+}
+.fs-13 {
+  font-size: var(--fs-13);
+}
+.fs-12 {
+  font-size: var(--fs-12);
+}
+.m-inline-start {
+  margin-inline-start: 5px;
+}
+.letter-spacing {
+  letter-spacing: var(--letter-spacing);
+}
+.m-inline-end {
+  margin-inline-end: 5px;
+}
+
+.is-padding-lg {
+  padding: 50px 100px;
+}
+.is-padding-responsive {
+  padding: 30px;
+}
+
+// @media screen and (min-width: 1150px) {
+//   .layout-content {
+//     height: calc(100vh - 40px);
+//   }
+// }

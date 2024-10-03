@@ -1,0 +1,26 @@
+
+.hamburger-menu-sidebar {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    left: -1550px; 
+    transition: left 0.5s ease;
+    z-index: 111;
+}
+
+.hamburger-menu-sidebar.show {
+    left: 0;
+}
+
+.hamburger-menu-sidebar ul {
+padding: 0px;
+}
+.hamburger-menu-sidebar ul li {
+list-style: none;
+padding: 10px 20px;
+font-size: 1.3rem;
+}

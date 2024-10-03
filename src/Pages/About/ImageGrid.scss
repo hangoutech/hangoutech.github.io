@@ -1,0 +1,30 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 600px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+  gap: 20px;
+}
+
+.image-part {
+  background-image: url("../../assests//images/software-developer-6521720_1280.jpg"); /* Same image path */
+  background-size: 200% 200%; /* To zoom the image */
+  width: 1005;
+}
+
+.top-left {
+  background-position: top left;
+}
+
+.top-right {
+  background-position: top right;
+}
+
+.bottom-left {
+  background-position: bottom left;
+}
+
+.bottom-right {
+  background-position: bottom right;
+}

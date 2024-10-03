@@ -1,0 +1,43 @@
+.start-btn {
+  min-width: 230px;
+  text-align: center;
+  height: 48px;
+  color: var(--white);
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 600;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+
+.animate-btn {
+  background: var(--success);
+  border: none;
+  z-index: 1;
+}
+.animate-btn:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background: var(--nav-border);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.animate-btn:hover {
+  color: var(--white);
+}
+.animate-btn:hover:after {
+  left: 0;
+  width: 100%;
+}
+.animate-btn:active {
+  top: 2px;
+}

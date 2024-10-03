@@ -1,0 +1,53 @@
+.header-section {
+  width: 100%;
+  transition: 0.3s;
+  z-index: 11;
+}
+.header-section-sticky {
+  background: var(--nav-bg);
+  border: 1px solid var(--nav-border);
+  border-radius: 50px;
+  padding: 20px 30px;
+}
+.header-section-fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: var(--secondary);
+  padding: 20px 30px;
+}
+.header-section-fixed a {
+  font-weight: 500;
+  color: var(--primary) !important;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+a {
+  letter-spacing: 1px;
+}
+.company-logo {
+  width: 50px;
+}
+.company-logo img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.header-title a {
+  color: var(--white);
+  font-weight: 500;
+  padding-right: 80px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.contact-text {
+  padding-left: 150px;
+}
+.contact-arrow {
+  transform: rotate(45deg);
+}
+
+.company-logo-text {
+  font-size: 22px;
+  letter-spacing: 2px;
+}

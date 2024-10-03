@@ -1,0 +1,110 @@
+.home-section {
+  min-height: 100vh;
+  background: var(--primary);
+  position: relative;
+  z-index: 111;
+}
+.hero-section {
+  padding-top: 50px;
+}
+
+.hero-text-1 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: var(--white);
+  letter-spacing: 5px;
+}
+.hero-text-2 {
+  font-size: 6rem;
+  font-weight: 500;
+  background: var(--hero-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.2;
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width: 540px) {
+  .hero-text-1 {
+    font-size: 2.7rem;
+  }
+  .hero-text-2 {
+    font-size: 3.1rem;
+  }
+}
+.hero-subtext {
+  color: var(--white);
+  font-weight: 500;
+}
+
+.hero-image {
+  // width: 700px;
+  width: 100%;
+}
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+// .hero-text-1 {
+//   font-weight: 600;
+//   font-size: 4.5rem;
+//   font-family: Hack, sans-serif;
+//   letter-spacing: 5px;
+//   color: transparent;
+//   -webkit-text-stroke: 2px var(--nav-border);
+//   -webkit-background-clip: text;
+//   background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   background-repeat: no-repeat;
+//   position: relative;
+// }
+
+// .bg {
+//   animation: slide 3s ease-in-out infinite alternate;
+//   // background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+//   background-image: var(--animating-bg);
+//   bottom: 0;
+//   left: -50%;
+//   opacity: 0.1;
+//   position: fixed;
+//   right: -50%;
+//   top: 0;
+//   z-index: 0;
+// }
+
+// .bg2 {
+//   animation-direction: alternate-reverse;
+//   animation-duration: 4s;
+// }
+
+// .bg3 {
+//   animation-duration: 5s;
+// }
+
+// .content {
+//   background-color: rgba(255, 255, 255, 0.8);
+//   border-radius: 0.25em;
+//   box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+//   box-sizing: border-box;
+//   left: 50%;
+//   padding: 10vmin;
+//   position: fixed;
+//   text-align: center;
+//   top: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+// h1 {
+//   font-family: monospace;
+// }
+
+// @keyframes slide {
+//   0% {
+//     transform: translateX(-25%);
+//   }
+//   100% {
+//     transform: translateX(25%);
+//   }
+// }

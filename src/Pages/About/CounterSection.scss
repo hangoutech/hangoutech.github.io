@@ -1,0 +1,20 @@
+.count {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  background: var(--hero-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.2;
+  letter-spacing: 3px;
+}
+.counter-wrapper {
+  position: relative;
+}
+.counter-inner {
+  position: relative;
+  z-index: 2;
+}
+.count-icon {
+  font-size: 48px;
+}
