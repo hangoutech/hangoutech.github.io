@@ -65,13 +65,13 @@ const HeaderNavbar = () => {
             </div>
             <div>
               <a
-                className="pe-0 d-flex align-items-center gap-2 text-decoration-none"
+                className="pe-0 d-flex align-items-center gap-2 text-decoration-none contact-arrow-wrapper"
                 href="#contactSection"
               >
                 Contact{" "}
                 <span className=" contact-arrow">
                   <FaArrowUpLong
-                    color={isSticky ? "var(--primary)" : "var(--white)"}
+                    // color={isSticky ? "var(--primary)" : "var(--white)"}
                     size={20}
                   />
                 </span>

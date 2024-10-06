@@ -23,16 +23,16 @@ const CounterSection = () => {
       counter("count4", 10, 56, 1000);
     };
 
-    const homeLink = document.querySelector('a[href="#aboutSection"]');
-    if (homeLink) {
-      homeLink.addEventListener("click", startCounters);
-    }
+    // const homeLink = document.querySelector('a[href="#aboutSection"]');
+    // if (homeLink) {
+    //   homeLink.addEventListener("click", startCounters);
+    // }
 
-    return () => {
-      if (homeLink) {
-        homeLink.removeEventListener("click", startCounters);
-      }
-    };
+    // return () => {
+    //   if (homeLink) {
+    //     homeLink.removeEventListener("click", startCounters);
+    //   }
+    // };
   }, []);
 
   return (

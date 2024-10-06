@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.scss";
 import HeaderNavbar from "../Navbar/HeaderNavbar";
 import { Col, Row } from "react-bootstrap";
@@ -7,7 +7,31 @@ import heroImageBusiness from "../../assests/images/file.png";
 import CommonButton from "../../Components/CommonButton";
 import { isMobile, isTablet } from "react-device-detect";
 
-const Home = (isSticky) => {
+const Home = () => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  useEffect(() => {
+    const homeSection = document.getElementById("homeSection");
+    if (homeSection) {
+      homeSection.scrollIntoView(); // Default scroll without smooth behavior
+    }
+  }, []);
+
   return (
     <div className="poistion-relative" id="homeSection">
       {/* <div className="bg"></div>

@@ -50,7 +50,6 @@ const Contact = () => {
               onKeyDown={handleKeyDown}
               id="inputID"
               maxLength={20}
-              autoFocus
             />
           </div>
           <div className=" mb-4">
@@ -64,7 +63,6 @@ const Contact = () => {
               onKeyDown={handleKeyDown}
               id="inputID"
               maxLength={20}
-              autoFocus
             />
           </div>
 
@@ -76,7 +74,6 @@ const Contact = () => {
               placeholder="Type a message here..."
               onChange={(e) => setMessage(e?.target?.value)}
               onKeyDown={handleKeyDown}
-              autoFocus
               id="inputID"
               rows={5}
             />

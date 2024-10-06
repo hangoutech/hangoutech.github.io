@@ -40,6 +40,12 @@ a {
   margin-bottom: 0px;
   cursor: pointer;
 }
+.header-title a:hover {
+  color: var(--warning);
+}
+.contact-arrow-wrapper:hover {
+  color: var(--warning);
+}
 .contact-text {
   padding-left: 150px;
 }
