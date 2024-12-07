@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import CommonButton from "../../Components/CommonButton";
 import aboutImage from "../../assests/images/Love App.svg";
 
+
 const ServiceCard = ({ ServiceCardtext, ServiceCardSubText, cardCount }) => {
   //   const [bgColor, setBgColor] = useState("service-card-blue");
 
@@ -21,11 +22,10 @@ const ServiceCard = ({ ServiceCardtext, ServiceCardSubText, cardCount }) => {
       <div className=" card-count">
         <span className=" card-count-text">{cardCount}</span>
       </div>
-      <img src={aboutImage} alt="" />
+       <img src={aboutImage}/>
       <CommonButton buttontext={ServiceCardtext} />
       <h6 className=" pt-3 text-white text-center">
-        We are leading technology solutions providing company all over the world
-        doing lorem ipsum dolor sit amet.
+       {ServiceCardSubText}
       </h6>
     </div>
   );

@@ -46,9 +46,9 @@ const CounterSection = () => {
                   <i className="bi bi-building count-icon"></i>
                 </div>
                 <div className="py-2 count">
-                  <span id="count1">107</span>
+                  <span id="count1">30</span>+
                 </div>
-                <div>Lorem Ipsum HQs</div>
+                <div>Projects</div>
               </div>
             </div>
             <div className="col-md-6 col-lg-3">
@@ -57,9 +57,9 @@ const CounterSection = () => {
                   <i className="bi bi-people count-icon"></i>
                 </div>
                 <div className="py-2 count">
-                  <span id="count2">1000</span>+
+                  <span id="count2">10</span>+
                 </div>
-                <div>Lorem Ipsum Peoples</div>
+                <div>Clients</div>
               </div>
             </div>
             <div className="col-md-6 col-lg-3">
@@ -68,9 +68,9 @@ const CounterSection = () => {
                   <i className="bi bi-trophy count-icon"></i>
                 </div>
                 <div className="py-2 count">
-                  <span id="count3">21</span>
+                  <span id="count3">18</span>+
                 </div>
-                <div>Lorem Ipsum Awards</div>
+                <div>Services</div>
               </div>
             </div>
             <div className="col-md-6 col-lg-3">
@@ -79,9 +79,9 @@ const CounterSection = () => {
                   <i className="bi bi-graph-up count-icon"></i>
                 </div>
                 <div className="py-2 count">
-                  $<span id="count4">56</span>m
+                  <span id="count4">15</span>
                 </div>
-                <div>Lorem Ipsum Revenue</div>
+                <div>Team Size</div>
               </div>
             </div>
           </div>

@@ -55,8 +55,7 @@ const Home = () => {
               <div className=" hero-text-2 py-3">Technology Solutions</div>
             </div>
             <h2 className=" hero-subtext">
-              We are leading technology solutions providing company all over the
-              world doing lorem ipsum dolor sit amet.
+            We provide innovative and reliable technology solutions to businesses across the globe. From software development to IT consulting, our expert team helps companies grow and succeed in today’s digital world.
             </h2>
 
             <CommonButton

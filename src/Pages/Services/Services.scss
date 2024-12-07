@@ -21,6 +21,7 @@
   position: absolute;
   left: 35px;
   top: -35px;
+  gap: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,3 +44,7 @@
 //   letter-spacing: 2px;
 //   font-size: 18px;
 // }
+
+.filter-white {
+  filter: invert(100%) brightness(100%);
+}

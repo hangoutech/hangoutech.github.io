@@ -3,6 +3,8 @@ import "./Services.scss";
 import ServiceCard from "./ServiceCard";
 import { Col, Row } from "react-bootstrap";
 import { isMobile, isTablet } from "react-device-detect";
+import webapp from '../../assests/images/webapp.svg'
+import aboutImage from "../../assests/images/Love App.svg";
 
 const Services = () => {
   return (
@@ -22,22 +24,22 @@ const Services = () => {
       </div>
       <Row className=" mt-5 ">
         <Col lg={4}>
-          <ServiceCard ServiceCardtext="Mobile App" cardCount="01." />
+          <ServiceCard ServiceCardtext="Mobile App" ServiceCardSubText="Create innovative and user-friendly mobile apps tailored for Android and iOS platforms to enhance user engagement and drive business growth." cardCount="01." />
         </Col>
         <Col lg={4}>
-          <ServiceCard ServiceCardtext="Mobile App" cardCount="01." />
+          <ServiceCard ServiceCardtext="Web App"  ServiceCardSubText="Develop high-performance, scalable web applications with seamless user experiences to transform your online presence and boost digital efficiency." cardCount="02."  />
         </Col>
         <Col lg={4}>
-          <ServiceCard ServiceCardtext="Mobile App" cardCount="01." />
+          <ServiceCard ServiceCardtext="AI/ML" ServiceCardSubText="Leverage cutting-edge Artificial Intelligence and Machine Learning solutions to automate processes, gain insights, and revolutionize decision-making." cardCount="03."/>
         </Col>
         <Col lg={4}>
-          <ServiceCard ServiceCardtext="Mobile App" cardCount="01." />
+          <ServiceCard ServiceCardtext="Digital Marketing" ServiceCardSubText="Boost your online visibility with expert digital marketing strategies, including SEO, PPC, social media marketing, and content optimization." cardCount="04." />
         </Col>
         <Col lg={4}>
-          <ServiceCard ServiceCardtext="Mobile App" cardCount="01." />
+          <ServiceCard ServiceCardtext="UI/UX" ServiceCardSubText="Design intuitive and visually stunning UI/UX experiences that captivate users, improve usability, and increase customer retention." cardCount="05."  />
         </Col>
         <Col lg={4}>
-          <ServiceCard ServiceCardtext="Mobile App" cardCount="01." />
+          <ServiceCard ServiceCardtext="Devops" ServiceCardSubText="Implement robust DevOps practices to streamline development, automate workflows, and accelerate deployment with CI/CD pipelines." cardCount="06."  />
         </Col>
       </Row>
     </div>
