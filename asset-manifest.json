@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.44a10505.css",
-    "main.js": "/static/js/main.1237df9a.js",
+    "main.js": "/static/js/main.dff61573.js",
     "static/js/453.7640cc4b.chunk.js": "/static/js/453.7640cc4b.chunk.js",
     "static/media/file.png": "/static/media/file.ac2f19810bede03a19cf.png",
     "static/media/findicus_logo.png": "/static/media/findicus_logo.11bab46a3b6cebcdce9f.png",
@@ -15,11 +15,11 @@
     "index.html": "/index.html",
     "static/media/webapp.svg": "/static/media/webapp.06dd6aa9f09ea4867faca1d6a2dd7701.svg",
     "main.44a10505.css.map": "/static/css/main.44a10505.css.map",
-    "main.1237df9a.js.map": "/static/js/main.1237df9a.js.map",
+    "main.dff61573.js.map": "/static/js/main.dff61573.js.map",
     "453.7640cc4b.chunk.js.map": "/static/js/453.7640cc4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44a10505.css",
-    "static/js/main.1237df9a.js"
+    "static/js/main.dff61573.js"
   ]
 }
