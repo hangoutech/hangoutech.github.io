@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import CommonButton from "../../Components/CommonButton";
-import aboutImage from "../../assests/images/Love App.svg";
 
 
-const ServiceCard = ({ ServiceCardtext, ServiceCardSubText, cardCount }) => {
+const ServiceCard = ({ ServiceCardtext, ServiceCardSubText, cardCount, icon }) => {
   //   const [bgColor, setBgColor] = useState("service-card-blue");
 
   //   const handleMouseEnter = () => {
@@ -22,7 +21,9 @@ const ServiceCard = ({ ServiceCardtext, ServiceCardSubText, cardCount }) => {
       <div className=" card-count">
         <span className=" card-count-text">{cardCount}</span>
       </div>
-       <img src={aboutImage}/>
+      <div className="service-icon mb-3">
+        {icon}
+      </div>
       <CommonButton buttontext={ServiceCardtext} />
       <h6 className=" pt-3 text-white text-center">
        {ServiceCardSubText}

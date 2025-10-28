@@ -25,10 +25,10 @@ const About = () => {
         {" "}
         <h3 className="  text-white about-title pb-4">ABOUT COMPANY</h3>
         <h5 className=" text-center text-white about-company-subtext">
-        At HangouTech, we specialize in delivering innovative IT solutions to empower businesses in the digital era. Our expertise spans cloud computing, cybersecurity, custom software development, and mobile app development, including Flutter and native applications.
+        At Hangoutech, we specialize in delivering innovative IT solutions to empower businesses in the digital era. Our expertise spans cloud computing, cybersecurity, custom software development, and mobile app development, including Flutter and native applications.
         </h5>
         <h5 className=" text-center text-white about-company-subtext">
-        Our mission is to help businesses thrive by driving growth and efficiency through cutting-edge technology and expert IT consulting. Whether you're looking for scalable cloud solutions, robust security, or intuitive mobile applications, HangouTech is your trusted partner for success.
+        Our mission is to help businesses thrive by driving growth and efficiency through cutting-edge technology and expert IT consulting. Whether you're looking for scalable cloud solutions, robust security, or intuitive mobile applications, Hangoutech is your trusted partner for success.
         </h5>
       </div>
 
