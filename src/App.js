@@ -12,7 +12,7 @@ function App() {
     <div className="layout">
       <div className=" container-fluid p-0 layout">
         <Home />
-        {/* <Clients /> */}
+        <Clients />
         <About />
         <Services />
         <Contact />

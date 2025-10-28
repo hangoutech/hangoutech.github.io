@@ -11,9 +11,10 @@
 .slider {
   background: var(--white);
   overflow: hidden;
-  //   padding-top: 1rem;
-  //   padding-bottom: 1rem;
+  padding: 2rem 0;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
 }
 
 .slider:hover .slide-track {
@@ -23,9 +24,25 @@
 .slide-track {
   display: flex;
   animation: 15s slide infinite linear;
-  /* display: inline-block; */
+  align-items: center;
+  height: 120px;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-width: 200px;
+  flex-shrink: 0;
 }
 
 .slide-track img {
   margin: 0 40px;
+  object-fit: contain;
+  max-height: 80px;
+  max-width: 260px;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
 }
