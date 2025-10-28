@@ -3,6 +3,7 @@ import "./CounterSection.scss";
 
 const CounterSection = () => {
   useEffect(() => {
+    // eslint-disable-next-line no-unused-vars
     const counter = (id, start, end, duration) => {
       let current = start;
       const range = end - start;
