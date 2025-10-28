@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="copy_rights pt-5 border-top">
-          <span>Hangoutech &#169; 2024</span>
+          <span>Hangoutech &#169; 2025</span>
           <span className="border_left">All Rights Reserved</span>
         </div>
       </div>

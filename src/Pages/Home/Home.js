@@ -58,11 +58,11 @@ const Home = () => {
             We provide innovative and reliable technology solutions to businesses across the globe. From software development to IT consulting, our expert team helps companies grow and succeed in today’s digital world.
             </h2>
 
-            <CommonButton
+            {/* <CommonButton
               buttontext=" Get started"
               homePage={true}
               className="mt-5"
-            />
+            /> */}
           </Col>
           <Col lg={6} className=" d-flex justify-content-end">
             <div className=" d-flex  justify-content-center h-100 hero-image">
