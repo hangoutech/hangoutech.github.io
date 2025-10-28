@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a185465.css",
-    "main.js": "/static/js/main.2c5f0fcc.js",
+    "main.css": "/static/css/main.a8802ab3.css",
+    "main.js": "/static/js/main.3a706e68.js",
     "static/js/453.7640cc4b.chunk.js": "/static/js/453.7640cc4b.chunk.js",
     "static/media/file.png": "/static/media/file.ac2f19810bede03a19cf.png",
     "static/media/findicus_logo.png": "/static/media/findicus_logo.11bab46a3b6cebcdce9f.png",
@@ -10,14 +10,13 @@
     "static/media/coducer_logo.png": "/static/media/coducer_logo.81fc949bb2871cf4d335.png",
     "static/media/broadridge_logo.png": "/static/media/broadridge_logo.c63b34fd0a176d156817.png",
     "static/media/vigno_inc_logo.png": "/static/media/vigno_inc_logo.7140d9031234cf4bc654.png",
-    "static/media/Love App.svg": "/static/media/Love App.13a03c0a52a689c63d1c9856b95f528c.svg",
     "index.html": "/index.html",
-    "main.5a185465.css.map": "/static/css/main.5a185465.css.map",
-    "main.2c5f0fcc.js.map": "/static/js/main.2c5f0fcc.js.map",
+    "main.a8802ab3.css.map": "/static/css/main.a8802ab3.css.map",
+    "main.3a706e68.js.map": "/static/js/main.3a706e68.js.map",
     "453.7640cc4b.chunk.js.map": "/static/js/453.7640cc4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a185465.css",
-    "static/js/main.2c5f0fcc.js"
+    "static/css/main.a8802ab3.css",
+    "static/js/main.3a706e68.js"
   ]
 }
