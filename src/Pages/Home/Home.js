@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
-import "./Home.scss";
-import HeaderNavbar from "../Navbar/HeaderNavbar";
 import { Col, Row } from "react-bootstrap";
-import heroImage from "../../assests/images/data.svg";
-import heroImageBusiness from "../../assests/images/file.png";
-import CommonButton from "../../Components/CommonButton";
 import { isMobile, isTablet } from "react-device-detect";
+import heroImageBusiness from "../../assests/images/file.png";
+import HeaderNavbar from "../Navbar/HeaderNavbar";
+import "./Home.scss";
 
 const Home = () => {
   const [isSticky, setIsSticky] = useState(false);

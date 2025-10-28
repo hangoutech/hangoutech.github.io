@@ -1,10 +1,8 @@
 import React from "react";
-import "./Services.scss";
-import ServiceCard from "./ServiceCard";
 import { Col, Row } from "react-bootstrap";
 import { isMobile, isTablet } from "react-device-detect";
-import webapp from '../../assests/images/webapp.svg'
-import aboutImage from "../../assests/images/Love App.svg";
+import ServiceCard from "./ServiceCard";
+import "./Services.scss";
 
 const Services = () => {
   return (

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import CommonButton from "../../Components/CommonButton";
 import aboutImage from "../../assests/images/Love App.svg";
 
