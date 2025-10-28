@@ -8,6 +8,8 @@ import client3 from "../../assests/images/proppify_logo.png";
 import client4 from "../../assests/images/pitchiton_logo.png";
 import client5 from "../../assests/images/vigno_inc_logo.png";
 import client6 from "../../assests/images/broadridge_logo.png";
+import client7 from "../../assests/images/indiesprit_logo.jpeg";
+
 
 
 const Clients = () => {
@@ -50,6 +52,12 @@ const Clients = () => {
             alt="Client Logo 6"
           />
         </div>
+         <div className="slide">
+          <img
+            src={client7}
+            alt="Client Logo 7"
+          />
+        </div>
         
         <div className="slide">
           <img
@@ -85,6 +93,12 @@ const Clients = () => {
           <img
             src={client6}
             alt="Client Logo 6"
+          />
+        </div>
+         <div className="slide">
+          <img
+            src={client7}
+            alt="Client Logo 7"
           />
         </div>
       </div>
