@@ -21,6 +21,8 @@ const Contact = () => {
       event.preventDefault();
     }
   };
+  console.log(message);
+
 
   return (
     <div

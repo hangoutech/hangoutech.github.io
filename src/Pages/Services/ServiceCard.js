@@ -4,20 +4,9 @@ import aboutImage from "../../assests/images/Love App.svg";
 
 
 const ServiceCard = ({ ServiceCardtext, ServiceCardSubText, cardCount }) => {
-  //   const [bgColor, setBgColor] = useState("service-card-blue");
-
-  //   const handleMouseEnter = () => {
-  //     setBgColor("service-card-green");
-  //   };
-
-  //   const handleMouseLeave = () => {
-  //     setBgColor("service-card-blue");
-  //   };
   return (
     <div
       className={`position-relative service-card p-3 d-flex justify-content-center align-items-center flex-column `}
-      //   onMouseEnter={handleMouseEnter}
-      //   onMouseLeave={handleMouseLeave}
     >
       <div className=" card-count">
         <span className=" card-count-text">{cardCount}</span>

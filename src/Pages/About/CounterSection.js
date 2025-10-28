@@ -16,12 +16,12 @@ const CounterSection = () => {
       }, step);
     };
 
-    const startCounters = () => {
-      counter("count1", 50, 107, 1000);
-      counter("count2", 9911, 10000, 1000);
-      counter("count3", 0, 21, 1000);
-      counter("count4", 10, 56, 1000);
-    };
+    // const startCounters = () => {
+    //   counter("count1", 50, 107, 1000);
+    //   counter("count2", 9911, 10000, 1000);
+    //   counter("count3", 0, 21, 1000);
+    //   counter("count4", 10, 56, 1000);
+    // };
 
     // const homeLink = document.querySelector('a[href="#aboutSection"]');
     // if (homeLink) {
