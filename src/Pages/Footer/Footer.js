@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.scss";
 import logo from "../../assests/images/hangotech-logo.png";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa6";
 import { isDesktop, isMobile, isTablet } from "react-device-detect";
 
 const Footer = () => {
@@ -56,6 +56,9 @@ const Footer = () => {
               <div className="footer_title">Social Media</div>
 
               <span className="media ">
+                <a href="https://in.linkedin.com/company/hangoutech" target="_blank" rel="noopener noreferrer">
+                  <FaLinkedin color="var(--white)" size={24} />
+                </a>
                 <span>
                   <FaFacebook color="var(--white)" size={24} />
                 </span>
