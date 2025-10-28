@@ -1,8 +1,8 @@
 import React from "react";
-import "./Services.scss";
-import ServiceCard from "./ServiceCard";
 import { Col, Row } from "react-bootstrap";
 import { isMobile, isTablet } from "react-device-detect";
+import ServiceCard from "./ServiceCard";
+import "./Services.scss";
 import { 
   FaMobileScreen, 
   FaCode, 

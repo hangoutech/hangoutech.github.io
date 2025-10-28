@@ -1,12 +1,12 @@
 import React, { useRef, useState } from "react";
-import "./Contact.scss";
 import { Col, Row } from "react-bootstrap";
+import { isDesktop, isMobile, isTablet } from "react-device-detect";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa6";
+import { TbMailFilled } from "react-icons/tb";
 import CommonButton from "../../Components/CommonButton";
 import contactImage from "../../assests/images/download4.png";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaGlobe, FaPhone } from "react-icons/fa6";
-import { TbMailFilled } from "react-icons/tb";
-import { isDesktop, isMobile, isTablet } from "react-device-detect";
+import "./Contact.scss";
 
 const Contact = () => {
   const inputRef = useRef(null);
@@ -21,6 +21,8 @@ const Contact = () => {
       event.preventDefault();
     }
   };
+  console.log(message);
+
 
   return (
     <div
@@ -126,13 +128,13 @@ const Contact = () => {
               <div className=" mb-3">
                 <h5 className=" text-white fs-15 d-flex  align-items-center letter-spacing">
                   <a
-                    href="mailto:support@hangoutech.com"
+                    href="mailto:info@hangoutech.com"
                     className=" text-white text-decoration-none"
                   >
                     <span className=" me-3">
                       <TbMailFilled color="var(--white)" size={22} />
                     </span>
-                    support@hangoutech.com
+                    info@hangoutech.com
                   </a>
                 </h5>
               </div>
