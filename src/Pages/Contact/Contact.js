@@ -126,13 +126,13 @@ const Contact = () => {
               <div className=" mb-3">
                 <h5 className=" text-white fs-15 d-flex  align-items-center letter-spacing">
                   <a
-                    href="mailto:support@hangoutech.com"
+                    href="mailto:info@hangoutech.com"
                     className=" text-white text-decoration-none"
                   >
                     <span className=" me-3">
                       <TbMailFilled color="var(--white)" size={22} />
                     </span>
-                    support@hangoutech.com
+                    info@hangoutech.com
                   </a>
                 </h5>
               </div>
