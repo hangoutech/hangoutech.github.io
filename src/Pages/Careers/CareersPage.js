@@ -279,7 +279,7 @@ const CareersPage = () => {
             something to the team, send us a note anyway.
           </p>
           <a
-            href="mailto:work.hangoutech@gmail.com?subject=Open Application - Hangoutech"
+            href="mailto:work.hangoutech@gmail.com?subject=Open Application at Hangoutech"
             className="btn-outline-electric d-inline-block mt-3"
           >
             Send an Open Application

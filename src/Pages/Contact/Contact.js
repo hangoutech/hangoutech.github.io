@@ -108,7 +108,7 @@ const Contact = () => {
                     </div>
                     Hangoutech Private Limited No: 26, Madeena Nagar, Vannivedu,
                     <br />
-                    Walajapet - 632513.
+                    Walajapet 632513.
                   </a>
                 </h5>
               </div>
