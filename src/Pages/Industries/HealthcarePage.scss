@@ -1,0 +1,381 @@
+// ── Hero ──────────────────────────────────────────
+.hc-hero {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background: radial-gradient(ellipse at top, rgba(45,125,210,0.12) 0%, transparent 65%);
+}
+
+.hc-hero-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--electric-blue);
+  background: rgba(45,125,210,0.12);
+  border-radius: 20px;
+  padding: 6px 16px;
+  margin-bottom: 20px;
+}
+
+.hc-hero-h1 {
+  font-size: clamp(28px, 4vw, 52px);
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1.2;
+  max-width: 780px;
+  margin: 0 auto 20px;
+}
+
+.hc-hero-sub {
+  font-size: 17px;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.75;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.hc-hero-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.hero-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.65);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 20px;
+  padding: 6px 14px;
+}
+
+// ── Section wrapper ──────────────────────────────
+.hc-section {
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+.hc-products-section {
+  background: rgba(45,125,210,0.03);
+}
+.hc-segments-section {}
+.hc-geo-section {
+  background: rgba(45,125,210,0.03);
+}
+.hc-tech-section {}
+
+// ── Pain Points ──────────────────────────────────
+.pain-points-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.pain-point-item {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  padding: 16px 20px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 10px;
+  border-left: 3px solid var(--electric-blue);
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.6;
+  }
+}
+.pain-number {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgba(45,125,210,0.4);
+  flex-shrink: 0;
+  line-height: 1.2;
+}
+
+// ── Products ─────────────────────────────────────
+.product-card {
+  position: relative;
+}
+.product-num {
+  font-size: 36px;
+  font-weight: 800;
+  color: rgba(45,125,210,0.15);
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.product-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--white);
+  margin: 0 0 8px;
+}
+.product-desc {
+  font-size: 13px;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.65;
+  margin: 0;
+}
+
+// ── Segments ─────────────────────────────────────
+.segment-card {
+  display: flex;
+  flex-direction: column;
+}
+.seg-icon {
+  width: 48px;
+  height: 48px;
+  background: rgba(45,125,210,0.12);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--electric-blue);
+  margin-bottom: 14px;
+}
+.seg-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+  margin: 0 0 12px;
+}
+.seg-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.seg-pill {
+  font-size: 12px;
+  color: rgba(255,255,255,0.65);
+  background: rgba(255,255,255,0.06);
+  border-radius: 4px;
+  padding: 3px 9px;
+}
+.seg-meta {
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255,255,255,0.07);
+}
+.seg-meta-block {
+  .seg-meta-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--electric-blue);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+  }
+  .seg-meta-values {
+    font-size: 12px;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.5;
+  }
+}
+
+// ── Geography ────────────────────────────────────
+.geo-card {
+  padding: 24px;
+}
+.geo-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.geo-flag {
+  font-size: 28px;
+}
+.geo-country {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--white);
+}
+.geo-cities {
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+  line-height: 1.7;
+}
+
+// ── Services list ────────────────────────────────
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.service-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: 8px;
+  transition: background 0.15s;
+
+  &:hover {
+    background: rgba(45,125,210,0.07);
+  }
+
+  span {
+    font-size: 14px;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.6;
+  }
+}
+.service-row-icon {
+  color: var(--electric-blue);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+// ── Tech Stack table ─────────────────────────────
+.tech-table {
+  max-width: 760px;
+  margin: 0 auto;
+  border: 1px solid rgba(45,125,210,0.2);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.tech-table-header {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  background: rgba(45,125,210,0.15);
+  padding: 14px 24px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--electric-blue);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.tech-table-row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  padding: 15px 24px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+
+  &:hover {
+    background: rgba(45,125,210,0.05);
+  }
+}
+.tech-layer {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--white);
+}
+.tech-value {
+  font-size: 13px;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.5;
+}
+
+// ── Process ──────────────────────────────────────
+.process-card {
+  padding: 28px 24px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 12px;
+  border: 1px solid rgba(45,125,210,0.15);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--electric-blue);
+  }
+}
+.process-step {
+  font-size: 36px;
+  font-weight: 800;
+  color: rgba(45,125,210,0.2);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.process-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+  margin: 0 0 10px;
+}
+.process-desc {
+  font-size: 13px;
+  color: rgba(255,255,255,0.58);
+  line-height: 1.7;
+  margin: 0;
+}
+
+// ── FAQ ──────────────────────────────────────────
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.faq-item {
+  border: 1px solid rgba(45,125,210,0.18);
+  border-radius: 10px;
+  padding: 18px 22px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+
+  &.open, &:hover {
+    border-color: var(--electric-blue);
+    background: rgba(45,125,210,0.06);
+  }
+}
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+
+  span {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1.4;
+  }
+  svg {
+    color: var(--electric-blue);
+    flex-shrink: 0;
+  }
+}
+.faq-answer {
+  font-size: 14px;
+  color: rgba(255,255,255,0.62);
+  line-height: 1.7;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+// ── Bottom CTA ───────────────────────────────────
+.hc-cta-section {
+  background: radial-gradient(ellipse at center, rgba(45,125,210,0.14) 0%, transparent 70%);
+  border-top: 1px solid rgba(45,125,210,0.2);
+}
+.hc-cta-card {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.hc-cta-title {
+  font-size: clamp(24px, 3vw, 40px);
+  font-weight: 800;
+  color: var(--white);
+}
+.hc-cta-sub {
+  font-size: 16px;
+  color: rgba(255,255,255,0.62);
+  line-height: 1.75;
+  margin-top: 12px;
+}
+.hc-cta-note {
+  font-size: 12px;
+  color: rgba(255,255,255,0.3);
+  margin-top: 14px;
+  margin-bottom: 0;
+}

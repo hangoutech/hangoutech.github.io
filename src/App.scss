@@ -1,10 +1,11 @@
-$primary: #0a0a33;
+// PRD Brand Colors: Deep navy #0A1628, Electric blue #2D7DD2
+$primary: #0A1628;
 $secondary: #f0f0f0;
 $success: #008645;
 $danger: #e85359;
 $dark: #000000;
 $white: #ffffff;
-$info: #0da9e5;
+$info: #2D7DD2;
 $warning: #f7936f;
 $light: #c0c0c0;
 $modal-backdrop-bg: rgba(52, 64, 84, 0.7);
@@ -17,17 +18,11 @@ $h2-font-size: 24px;
 $h3-font-size: 22px;
 $h5-font-size: 18px;
 
-// $h1-font-size: 50px;
-// $h4-font-size: 20px;
-// $h6-font-size: 16px;
-
 @import "~bootstrap/scss/bootstrap";
-// @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-  // font-family: "Manrope", sans-serif;
   font-family: "Kanit", sans-serif;
   margin: 0;
   padding: 0;
@@ -39,20 +34,21 @@ body {
 }
 
 :root {
-  --primary: #0a0a33;
-  --nav-border: #3b60ab;
-  --nav-bg: #121651;
+  --primary: #0A1628;
+  --electric-blue: #2D7DD2;
+  --nav-border: #2D7DD2;
+  --nav-bg: #0d1e3a;
   --secondary: #f0f0f0;
   --grey: #c0c0c0;
-  --hero-text: linear-gradient(180deg, #f9a61a 0%, #d52e27 100%);
-  --animating-bg: linear-gradient(-60deg, #0a0a33 30%, #3b60ab 30%);
+  --hero-text: linear-gradient(180deg, #2D7DD2 0%, #1a5aad 100%);
+  --animating-bg: linear-gradient(-60deg, #0A1628 30%, #2D7DD2 30%);
   --border: #dadada;
   --layout-bg: #f0f4fa;
   --white: #ffffff;
   --success: #008645;
   --danger: #e85359;
   --dark: #000000;
-  --info: #0da9e5;
+  --info: #2D7DD2;
   --warning: #f9a61a;
   --box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
   --fs-15: 15px;
@@ -61,59 +57,132 @@ body {
   --fs-12: 12px;
   --letter-spacing: 0.5px;
 }
+
 .layout {
   background-color: var(--primary);
+  min-height: 100vh;
 }
 
 ::-webkit-scrollbar {
-  width: 1px;
+  width: 4px;
   height: 7px;
 }
-
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(204, 25, 25, 0);
+  background: var(--primary);
 }
-
 ::-webkit-scrollbar-thumb {
-  background: var(--border);
+  background: var(--electric-blue);
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(248, 241, 241, 0);
 }
 
-.cursor-pointer {
-  cursor: pointer;
-}
-.fs-15 {
-  font-size: var(--fs-15);
-}
-.fs-14 {
-  font-size: var(--fs-14);
-}
-.fs-13 {
-  font-size: var(--fs-13);
-}
-.fs-12 {
-  font-size: var(--fs-12);
-}
-.m-inline-start {
-  margin-inline-start: 5px;
-}
-.letter-spacing {
-  letter-spacing: var(--letter-spacing);
-}
-.m-inline-end {
-  margin-inline-end: 5px;
-}
+.cursor-pointer { cursor: pointer; }
+.fs-15 { font-size: var(--fs-15); }
+.fs-14 { font-size: var(--fs-14); }
+.fs-13 { font-size: var(--fs-13); }
+.fs-12 { font-size: var(--fs-12); }
+.m-inline-start { margin-inline-start: 5px; }
+.letter-spacing { letter-spacing: var(--letter-spacing); }
+.m-inline-end { margin-inline-end: 5px; }
 
 .is-padding-lg {
-  padding: 50px 100px;
+  padding: 80px 100px;
 }
 .is-padding-responsive {
-  padding: 30px;
+  padding: 40px 24px;
 }
 
-// @media screen and (min-width: 1150px) {
-//   .layout-content {
-//     height: calc(100vh - 40px);
-//   }
-// }
+// Shared section title style
+.section-label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--electric-blue);
+  margin-bottom: 12px;
+}
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.2;
+}
+.section-subtitle {
+  font-size: 17px;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.7;
+  max-width: 640px;
+}
+
+// Electric blue CTA button
+.btn-electric {
+  background: var(--electric-blue);
+  color: var(--white);
+  border: none;
+  padding: 14px 32px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s, transform 0.1s;
+
+  &:hover {
+    background: #1a5aad;
+    color: var(--white);
+    transform: translateY(-1px);
+  }
+}
+
+// Outline button variant
+.btn-outline-electric {
+  background: transparent;
+  color: var(--electric-blue);
+  border: 2px solid var(--electric-blue);
+  padding: 12px 30px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s;
+
+  &:hover {
+    background: var(--electric-blue);
+    color: var(--white);
+  }
+}
+
+// Card surface
+.card-surface {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(45, 125, 210, 0.2);
+  border-radius: 12px;
+  padding: 28px;
+  transition: border-color 0.2s, background 0.2s;
+
+  &:hover {
+    border-color: var(--electric-blue);
+    background: rgba(45, 125, 210, 0.06);
+  }
+}
+
+// Trust stat pill
+.stat-pill {
+  text-align: center;
+  padding: 24px 32px;
+
+  .stat-number {
+    font-size: 42px;
+    font-weight: 800;
+    color: var(--electric-blue);
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 14px;
+    color: rgba(255,255,255,0.6);
+    margin-top: 6px;
+  }
+}

@@ -1,105 +1,86 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./HamburgerMenu.css";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import { RxCross2 } from "react-icons/rx";
+import { FaChevronDown } from "react-icons/fa6";
 import logo from "../../assests/images/hangotech-logo.png";
+
+const industryLinks = [
+  { label: "Healthcare", path: "/industries/healthcare" },
+  { label: "EdTech", path: "/industries/edtech" },
+  { label: "Logistics", path: "/industries/logistics" },
+  { label: "Retail & D2C", path: "/industries/retail-d2c" },
+];
 
 function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
+  const [industriesOpen, setIndustriesOpen] = useState(false);
+  const location = useLocation();
 
-  const toggleSidebar = () => {
-    setIsOpen(!isOpen);
+  const close = () => {
+    setIsOpen(false);
+    setIndustriesOpen(false);
   };
-  const [isSticky, setIsSticky] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setIsSticky(true);
-      } else {
-        setIsSticky(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <div className="d-flex position-relative">
-      <div
-        onClick={toggleSidebar}
-        className={` cursor-pointer ${
-          isSticky ? "text-primary" : "text-white"
-        }`}
-      >
+      <div onClick={() => setIsOpen(true)} className="cursor-pointer text-white">
         <HiMiniBars3BottomRight size={30} />
       </div>
+
+      {isOpen && <div className="hamburger-overlay" onClick={close} />}
+
       <div className={`hamburger-menu-sidebar ${isOpen ? "show" : ""}`}>
-        <div className=" d-flex  justify-content-between align-items-center">
-          <div
-            className=" d-flex align-items-center h-100 cursor-pointer"
-            title="Hangoutech"
-          >
-            <div className=" company-logo">
-              <img src={logo} alt="" />
+        <div className="d-flex justify-content-between align-items-center mb-4">
+          <Link to="/" className="d-flex align-items-center text-decoration-none" onClick={close}>
+            <div className="company-logo">
+              <img src={logo} alt="Hangoutech" />
             </div>
-            <span className="company-logo-text ps-1 text-primary fw-medium ">
-              ANGOUTECH
-            </span>
-          </div>
-          <div onClick={toggleSidebar}>
-            <RxCross2 size={30} color="text-primary" />
+            <span className="company-logo-text ps-1 text-primary fw-medium">ANGOUTECH</span>
+          </Link>
+          <div onClick={close} className="cursor-pointer">
+            <RxCross2 size={26} />
           </div>
         </div>
+
         <ul>
           <li>
-            <a
-              href="#homeSection"
-              className=" text-decoration-none"
-              onClick={toggleSidebar}
-            >
-              Home
-            </a>
+            <Link to="/" className="text-decoration-none" onClick={close}>Home</Link>
+          </li>
+
+          <li className="has-submenu">
+            <button className="submenu-trigger" onClick={() => setIndustriesOpen((o) => !o)}>
+              Industries
+              <FaChevronDown size={12} className={industriesOpen ? "open" : ""} />
+            </button>
+            {industriesOpen && (
+              <ul className="submenu">
+                <li>
+                  <Link to="/industries" className="text-decoration-none" onClick={close}>All Industries</Link>
+                </li>
+                {industryLinks.map((item) => (
+                  <li key={item.path}>
+                    <Link to={item.path} className="text-decoration-none" onClick={close}>
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+
+          <li>
+            <Link to="/about" className="text-decoration-none" onClick={close}>About</Link>
           </li>
           <li>
-            <a
-              href="#aboutSection"
-              className=" text-decoration-none"
-              onClick={toggleSidebar}
-            >
-              About
-            </a>
+            <Link to="/case-studies" className="text-decoration-none" onClick={close}>Our Work</Link>
           </li>
           <li>
-            <a
-              href="#serviceSection"
-              className=" text-decoration-none"
-              onClick={toggleSidebar}
-            >
-              Service
-            </a>
+            <Link to="/blog" className="text-decoration-none" onClick={close}>Blog</Link>
           </li>
           <li>
-            <a
-              href="#blogSection"
-              className=" text-decoration-none"
-              onClick={toggleSidebar}
-            >
-              Blog
-            </a>
-          </li>
-          <li>
-            <a
-              href="#contactSection"
-              className=" text-decoration-none"
-              onClick={toggleSidebar}
-            >
-              Contact
-            </a>
+            <Link to="/contact" className="text-decoration-none contact-link" onClick={close}>Contact Us</Link>
           </li>
         </ul>
       </div>

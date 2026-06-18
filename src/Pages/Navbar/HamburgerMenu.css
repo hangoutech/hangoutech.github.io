@@ -1,26 +1,102 @@
+.hamburger-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 110;
+}
 
 .hamburger-menu-sidebar {
-    width: 100%;
-    height: 100vh;
-    background-color: var(--secondary);
-    color: var(--primary);
-    padding: 20px;
-    position: fixed;
-    top: 0px;
-    left: -1550px; 
-    transition: left 0.5s ease;
-    z-index: 111;
+  width: 300px;
+  max-width: 85vw;
+  height: 100vh;
+  background-color: #0d1e3a;
+  color: var(--white);
+  padding: 24px 20px;
+  position: fixed;
+  top: 0;
+  right: -350px;
+  left: auto;
+  transition: right 0.35s ease;
+  z-index: 120;
+  overflow-y: auto;
+  border-left: 1px solid rgba(45,125,210,0.25);
 }
 
 .hamburger-menu-sidebar.show {
-    left: 0;
+  right: 0;
 }
 
 .hamburger-menu-sidebar ul {
-padding: 0px;
+  padding: 0;
+  margin: 0;
 }
 .hamburger-menu-sidebar ul li {
-list-style: none;
-padding: 10px 20px;
-font-size: 1.3rem;
+  list-style: none;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+.hamburger-menu-sidebar ul li a {
+  display: block;
+  padding: 14px 8px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.88);
+  letter-spacing: 0.3px;
+}
+.hamburger-menu-sidebar ul li a:hover {
+  color: var(--electric-blue, #2D7DD2);
+}
+.hamburger-menu-sidebar ul li a.contact-link {
+  color: #2D7DD2;
+  font-weight: 600;
+}
+
+/* Submenu */
+.submenu-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.88);
+  font-size: 1.05rem;
+  font-weight: 500;
+  font-family: "Kanit", sans-serif;
+  padding: 14px 8px;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+}
+.submenu-trigger svg {
+  transition: transform 0.2s;
+}
+.submenu-trigger svg.open {
+  transform: rotate(180deg);
+}
+
+.submenu {
+  padding-left: 16px !important;
+  background: rgba(45,125,210,0.06);
+  border-radius: 6px;
+  margin: 4px 0;
+}
+.submenu li a {
+  font-size: 0.95rem !important;
+  padding: 10px 8px !important;
+  color: rgba(255,255,255,0.7) !important;
+}
+.submenu li a.dimmed {
+  opacity: 0.45;
+  pointer-events: none;
+}
+.soon-tag {
+  font-size: 10px;
+  background: rgba(45,125,210,0.25);
+  color: #2D7DD2;
+  border-radius: 4px;
+  padding: 1px 6px;
+  margin-left: 6px;
+  font-weight: 700;
+}
+.has-submenu {
+  border-bottom: 1px solid rgba(255,255,255,0.07) !important;
 }

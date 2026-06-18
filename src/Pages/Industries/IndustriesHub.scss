@@ -1,0 +1,129 @@
+.industries-hero {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.industries-list-section {
+  padding-top: 20px;
+}
+
+.industries-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.industry-full-card {
+  padding: 36px;
+}
+
+.ind-icon-wrap {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.ind-tag {
+  font-size: 11px;
+  color: rgba(255,255,255,0.35);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.ind-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--white);
+  margin: 0;
+}
+.ind-tagline {
+  font-size: 15px;
+  color: var(--electric-blue);
+  margin: 4px 0 0;
+  font-weight: 500;
+}
+.ind-desc {
+  font-size: 14px;
+  color: rgba(255,255,255,0.62);
+  line-height: 1.75;
+  margin: 12px 0 0;
+}
+
+.ind-markets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+.market-pill {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.07);
+  border-radius: 20px;
+  padding: 4px 12px;
+  letter-spacing: 0.3px;
+}
+
+// Apps we build panel
+.apps-we-build {
+  background: rgba(45,125,210,0.07);
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+.apps-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--electric-blue);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.app-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.75);
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+
+  &:last-child { border-bottom: none; }
+}
+.app-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.ind-cta {
+  padding-top: 4px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+}
+.coming-soon-badge {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.06);
+  border-radius: 20px;
+  padding: 7px 16px;
+}
+
+// Hub bottom CTA
+.hub-bottom-cta {
+  background: rgba(45,125,210,0.06);
+  border-top: 1px solid rgba(45,125,210,0.18);
+}
+.cta-box {
+  max-width: 640px;
+  margin: 0 auto;
+}

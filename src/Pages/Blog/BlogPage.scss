@@ -1,0 +1,119 @@
+.blog-hero {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.blog-coming-soon {
+  border-top: 1px solid rgba(255,255,255,0.05);
+  padding-top: 40px;
+}
+.blog-cs-card {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 36px;
+}
+.blog-cs-icon {
+  width: 64px;
+  height: 64px;
+  background: rgba(45,125,210,0.12);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--electric-blue);
+  margin: 0 auto 20px;
+}
+.blog-cs-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--white);
+  margin: 0 0 10px;
+}
+.blog-cs-sub {
+  font-size: 15px;
+  color: rgba(255,255,255,0.6);
+  line-height: 1.7;
+  margin: 0;
+}
+.blog-topic-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+.blog-topic-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 6px 14px;
+}
+
+.blog-upcoming {
+  border-top: 1px solid rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.015);
+}
+.upcoming-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.upcoming-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.07);
+  transition: background 0.15s, border-color 0.15s;
+  flex-wrap: wrap;
+
+  &:hover {
+    background: rgba(255,255,255,0.04);
+    border-color: rgba(255,255,255,0.12);
+  }
+}
+.upcoming-tag {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  padding: 3px 9px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.upcoming-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--white);
+  margin: 0;
+  flex: 1;
+  line-height: 1.4;
+}
+.upcoming-eta {
+  font-size: 12px;
+  color: rgba(255,255,255,0.35);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.blog-cta {
+  border-top: 1px solid rgba(45,125,210,0.18);
+  background: rgba(45,125,210,0.05);
+}
+.blog-notify-card {
+  padding: 28px;
+}
+.blog-notify-text {
+  font-size: 14px;
+  color: rgba(255,255,255,0.62);
+  line-height: 1.7;
+  margin: 0;
+}
