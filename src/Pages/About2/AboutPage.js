@@ -24,7 +24,7 @@ const industries = [
 ];
 
 const timeline = [
-  { year: "2021", title: "Hangoutech Founded", desc: "Tejesh Pichandi and Fisal Sheriff founded Hangoutech with a focus on building high-quality digital products for underserved industry verticals in India." },
+  { year: "2021", title: "Hangoutech Founded", desc: "Tejesh Pichandi and Rehman Sheriff founded Hangoutech with a focus on building high-quality digital products for underserved industry verticals in India." },
   { year: "2022", title: "First Enterprise Client", desc: "Delivered our first enterprise-grade web application for a B2B client, establishing our delivery process and engineering standards." },
   { year: "2023", title: "Healthcare & EdTech Focus", desc: "Doubled down on Healthcare and EdTech verticals, delivering HMS and LMS products for clients across India and internationally." },
   { year: "2024", title: "Global Client Reach", desc: "Expanded to serve clients in the USA, UK, Australia, and Canada — while keeping our engineering base in India." },
@@ -48,7 +48,7 @@ const AboutPage = () => {
         <title>About Hangoutech | Software Development Company India</title>
         <meta
           name="description"
-          content="Hangoutech is a product-focused software development company based in India. Founded by Tejesh Pichandi and Fisal Sheriff. We build digital products for Healthcare, EdTech, Logistics and D2C brands."
+          content="Hangoutech is a product-focused software development company based in India. Founded by Tejesh Pichandi and Rehman Sheriff. We build digital products for Healthcare, EdTech, Logistics and D2C brands."
         />
         <link rel="canonical" href="https://hangoutech.com/about" />
       </Helmet>
@@ -94,7 +94,7 @@ const AboutPage = () => {
           </Col>
           <Col lg={7}>
             <p className="story-text">
-              Hangoutech was founded in 2021 by Tejesh Pichandi and Fisal Sheriff with one core belief:
+              Hangoutech was founded in 2021 by Tejesh Pichandi and Rehman Sheriff with one core belief:
               <strong> the best software is built by people who deeply understand the problem, not just the technology.</strong>
             </p>
             <p className="story-text mt-4">
@@ -155,7 +155,7 @@ const AboutPage = () => {
             <div className="founder-card card-surface">
               <div className="founder-avatar">FS</div>
               <div className="founder-info">
-                <h3 className="founder-name">Fisal Sheriff</h3>
+                <h3 className="founder-name">Rehman Sheriff</h3>
                 <p className="founder-role">Co-Founder & CTO</p>
                 <p className="founder-bio">
                   Fisal drives engineering excellence, team building, and delivery quality at Hangoutech.
