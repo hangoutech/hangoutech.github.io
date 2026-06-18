@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8802ab3.css",
-    "main.js": "/static/js/main.3a706e68.js",
+    "main.css": "/static/css/main.dcf66794.css",
+    "main.js": "/static/js/main.0bd5c032.js",
     "static/js/453.7640cc4b.chunk.js": "/static/js/453.7640cc4b.chunk.js",
     "static/media/file.png": "/static/media/file.ac2f19810bede03a19cf.png",
     "static/media/findicus_logo.png": "/static/media/findicus_logo.11bab46a3b6cebcdce9f.png",
     "static/media/pitchiton_logo.png": "/static/media/pitchiton_logo.b39db0c75b09202c3ce6.png",
-    "static/media/download4.png": "/static/media/download4.2de27516ff4b440f0b25.png",
     "static/media/coducer_logo.png": "/static/media/coducer_logo.81fc949bb2871cf4d335.png",
     "static/media/broadridge_logo.png": "/static/media/broadridge_logo.c63b34fd0a176d156817.png",
     "static/media/vigno_inc_logo.png": "/static/media/vigno_inc_logo.7140d9031234cf4bc654.png",
     "index.html": "/index.html",
-    "main.a8802ab3.css.map": "/static/css/main.a8802ab3.css.map",
-    "main.3a706e68.js.map": "/static/js/main.3a706e68.js.map",
+    "main.dcf66794.css.map": "/static/css/main.dcf66794.css.map",
+    "main.0bd5c032.js.map": "/static/js/main.0bd5c032.js.map",
     "453.7640cc4b.chunk.js.map": "/static/js/453.7640cc4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8802ab3.css",
-    "static/js/main.3a706e68.js"
+    "static/css/main.dcf66794.css",
+    "static/js/main.0bd5c032.js"
   ]
 }
