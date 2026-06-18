@@ -206,10 +206,10 @@ const AboutPage = () => {
           <h2 className="section-title">How We Got Here</h2>
         </div>
         <div className="timeline-list">
-          {timeline.map((t, i) => (
-            <div key={t.year} className={`timeline-item ${i % 2 === 0 ? "left" : "right"}`}>
-              <div className="timeline-year">{t.year}</div>
+          {timeline.map((t) => (
+            <div key={t.year} className="timeline-item">
               <div className="timeline-dot" />
+              <div className="timeline-year">{t.year}</div>
               <div className="timeline-content">
                 <h4 className="timeline-title">{t.title}</h4>
                 <p className="timeline-desc">{t.desc}</p>
@@ -232,6 +232,29 @@ const AboutPage = () => {
               <span style={{ color: ind.color }}>{ind.icon}</span>
               <span>{ind.name}</span>
             </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* ── GEOGRAPHIC FOCUS ── */}
+      <section className={`about-geo ${responsive ? "is-padding-responsive" : "is-padding-lg"}`}>
+        <div className="text-center mb-4">
+          <p className="section-label">Where We Work</p>
+          <h2 className="section-title">Clients Across 5 Countries</h2>
+        </div>
+        <div className="geo-flag-row">
+          {[
+            { flag: "🇮🇳", country: "India", note: "Primary Market" },
+            { flag: "🇺🇸", country: "USA",   note: "North America" },
+            { flag: "🇬🇧", country: "UK",    note: "Europe" },
+            { flag: "🇦🇺", country: "Australia", note: "APAC" },
+            { flag: "🇨🇦", country: "Canada", note: "North America" },
+          ].map((c) => (
+            <div key={c.country} className="geo-flag-card">
+              <span className="geo-flag">{c.flag}</span>
+              <span className="geo-country">{c.country}</span>
+              <span className="geo-note">{c.note}</span>
+            </div>
           ))}
         </div>
       </section>

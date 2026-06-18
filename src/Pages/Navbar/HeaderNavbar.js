@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./HeaderNavbar.scss";
 import logo from "../../assests/images/hangotech-logo.png";
-import { FaArrowUpLong, FaChevronDown } from "react-icons/fa6";
+import { FaArrowRight, FaChevronDown } from "react-icons/fa6";
 import HamburgerMenu from "./HamburgerMenu";
 
 const industryLinks = [
@@ -71,8 +71,6 @@ const HeaderNavbar = () => {
               </button>
               {dropdownOpen && (
                 <div className="nav-dropdown-menu">
-                  <Link to="/industries" className="dropdown-item-link">All Industries</Link>
-                  <div className="dropdown-divider-line" />
                   {industryLinks.map((item) => (
                     <Link key={item.path} to={item.path} className="dropdown-item-link">
                       {item.label}
@@ -98,10 +96,7 @@ const HeaderNavbar = () => {
               to="/contact"
               className={`pe-0 d-flex align-items-center gap-2 text-decoration-none contact-arrow-wrapper ${isActive("/contact") ? "nav-active" : ""}`}
             >
-              Contact{" "}
-              <span className="contact-arrow">
-                <FaArrowUpLong size={20} />
-              </span>
+              Contact <FaArrowRight size={14} />
             </Link>
           </div>
         </div>

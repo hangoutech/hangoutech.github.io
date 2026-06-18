@@ -168,16 +168,6 @@ const IndustryPageTemplate = ({ data }) => {
                       <span key={ex} className="ipt-seg-pill">{ex}</span>
                     ))}
                   </div>
-                  <div className="ipt-seg-meta mt-3">
-                    <div className="ipt-seg-meta-block">
-                      <div className="ipt-seg-meta-label" style={{ color: accentColor }}>Company Size</div>
-                      <div className="ipt-seg-meta-values">{seg.sizes.join(" · ")}</div>
-                    </div>
-                    <div className="ipt-seg-meta-block mt-2">
-                      <div className="ipt-seg-meta-label" style={{ color: accentColor }}>Decision Makers</div>
-                      <div className="ipt-seg-meta-values">{seg.stakeholders.join(" · ")}</div>
-                    </div>
-                  </div>
                 </div>
               </Col>
             ))}

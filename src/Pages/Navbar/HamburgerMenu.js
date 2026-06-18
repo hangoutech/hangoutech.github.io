@@ -56,9 +56,6 @@ function HamburgerMenu() {
             </button>
             {industriesOpen && (
               <ul className="submenu">
-                <li>
-                  <Link to="/industries" className="text-decoration-none" onClick={close}>All Industries</Link>
-                </li>
                 {industryLinks.map((item) => (
                   <li key={item.path}>
                     <Link to={item.path} className="text-decoration-none" onClick={close}>

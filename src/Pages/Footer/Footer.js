@@ -76,14 +76,8 @@ const Footer = () => {
       </div>
 
       <div className="copy_rights pt-4 border-top">
-        <span>Hangoutech Private Limited © 2025</span>
+        <span>Hangoutech Private Limited © 2026</span>
         <span className="border_left">All Rights Reserved</span>
-        <span className="border_left">
-          <a href="#privacy">Privacy Policy</a>
-        </span>
-        <span className="border_left">
-          <a href="#terms">Terms & Conditions</a>
-        </span>
       </div>
     </footer>
   );
