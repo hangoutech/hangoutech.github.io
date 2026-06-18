@@ -72,6 +72,12 @@
 .footer-cta {
   font-size: 13px;
   padding: 10px 20px;
+
+  @media (max-width: 576px) {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .copy_rights {
@@ -89,12 +95,25 @@
     text-decoration: none;
     &:hover { color: var(--white); }
   }
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+  }
 }
 
 .border_left {
   padding-left: 14px;
   border-left: 1px solid rgba(255,255,255,0.15);
   margin-left: 10px;
+
+  @media (max-width: 480px) {
+    padding-left: 0;
+    border-left: none;
+    margin-left: 0;
+  }
 }
 
 .company-logo {

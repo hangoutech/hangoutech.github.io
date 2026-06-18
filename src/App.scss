@@ -86,9 +86,23 @@ body {
 
 .is-padding-lg {
   padding: 80px 100px;
+
+  @media (max-width: 992px) {
+    padding: 60px 48px;
+  }
+  @media (max-width: 768px) {
+    padding: 48px 24px;
+  }
+  @media (max-width: 480px) {
+    padding: 36px 16px;
+  }
 }
 .is-padding-responsive {
   padding: 40px 24px;
+
+  @media (max-width: 480px) {
+    padding: 32px 16px;
+  }
 }
 
 // Shared section title style
@@ -105,12 +119,23 @@ body {
   font-weight: 700;
   color: var(--white);
   line-height: 1.2;
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
+  @media (max-width: 480px) {
+    font-size: 24px;
+  }
 }
 .section-subtitle {
   font-size: 17px;
   color: rgba(255,255,255,0.7);
   line-height: 1.7;
   max-width: 640px;
+
+  @media (max-width: 480px) {
+    font-size: 15px;
+  }
 }
 
 // Electric blue CTA button
@@ -133,6 +158,11 @@ body {
     color: var(--white);
     transform: translateY(-1px);
   }
+
+  @media (max-width: 480px) {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
 }
 
 // Outline button variant
@@ -152,6 +182,11 @@ body {
   &:hover {
     background: var(--electric-blue);
     color: var(--white);
+  }
+
+  @media (max-width: 480px) {
+    padding: 10px 22px;
+    font-size: 14px;
   }
 }
 
@@ -179,10 +214,22 @@ body {
     font-weight: 800;
     color: var(--electric-blue);
     line-height: 1;
+
+    @media (max-width: 576px) {
+      font-size: 32px;
+    }
   }
   .stat-label {
     font-size: 14px;
     color: rgba(255,255,255,0.6);
     margin-top: 6px;
+
+    @media (max-width: 576px) {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    padding: 16px 12px;
   }
 }

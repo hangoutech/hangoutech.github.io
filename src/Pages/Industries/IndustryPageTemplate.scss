@@ -207,6 +207,10 @@
   color: var(--white);
   letter-spacing: 1px;
   text-transform: uppercase;
+
+  @media (max-width: 576px) {
+    display: none;
+  }
 }
 .ipt-tech-row {
   display: grid;
@@ -215,11 +219,25 @@
   border-top: 1px solid rgba(255,255,255,0.06);
 
   &:hover { background: rgba(255,255,255,0.03); }
+
+  @media (max-width: 576px) {
+    grid-template-columns: 1fr;
+    gap: 4px;
+    padding: 14px 16px;
+  }
 }
 .ipt-tech-layer {
   font-size: 13px;
   font-weight: 700;
   color: var(--white);
+
+  @media (max-width: 576px) {
+    font-size: 11px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--accent, var(--electric-blue));
+    margin-bottom: 2px;
+  }
 }
 .ipt-tech-value {
   font-size: 13px;

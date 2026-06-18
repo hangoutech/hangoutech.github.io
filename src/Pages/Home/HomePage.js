@@ -116,7 +116,7 @@ const HomePage = () => {
               Hangoutech partners with clinics, hospitals, health-tech startups, EdTech platforms and D2C brands
               across India to design, build, and launch software that drives real business outcomes.
             </p>
-            <div className="d-flex flex-wrap gap-3 mt-4">
+            <div className="d-flex flex-wrap gap-3 mt-4 justify-content-center justify-content-lg-start">
               <Link to="/contact" className="btn-electric">
                 Book a Free Consultation
               </Link>
@@ -250,7 +250,7 @@ const HomePage = () => {
               From MVP to enterprise-grade systems, from clinics to health-tech startups, Hangoutech is
               your long-term technology partner.
             </p>
-            <div className="mt-4">
+            <div className="mt-4 d-flex justify-content-center justify-content-lg-start">
               <Link to="/contact" className="btn-electric">
                 Talk to Our Team
               </Link>

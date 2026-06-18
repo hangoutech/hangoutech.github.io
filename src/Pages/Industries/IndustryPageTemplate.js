@@ -107,7 +107,9 @@ const IndustryPageTemplate = ({ data }) => {
             <p className="section-label">The Problem</p>
             <h2 className="section-title">{painPoints.heading}</h2>
             {painPoints.sub && <p className="section-subtitle mt-3">{painPoints.sub}</p>}
-            <Link to="/contact" className="btn-electric d-inline-block mt-4">Let's Fix Yours →</Link>
+            <div className="mt-4 d-flex justify-content-center justify-content-lg-start">
+              <Link to="/contact" className="btn-electric">Let's Fix Yours →</Link>
+            </div>
           </Col>
           <Col lg={7}>
             <div className="ipt-pain-list">
@@ -193,7 +195,9 @@ const IndustryPageTemplate = ({ data }) => {
               End-to-end technology partnership — from research and design through development,
               cloud deployment, and long-term support.
             </p>
-            <Link to="/contact" className="btn-electric d-inline-block mt-4">Start a Project</Link>
+            <div className="mt-4 d-flex justify-content-center justify-content-lg-start">
+              <Link to="/contact" className="btn-electric">Start a Project</Link>
+            </div>
           </Col>
           <Col lg={7}>
             <div className="ipt-services-list">
