@@ -192,8 +192,8 @@ const IndustryPageTemplate = ({ data }) => {
             <p className="section-label">Our Services</p>
             <h2 className="section-title">What We Offer</h2>
             <p className="section-subtitle mt-3">
-              End-to-end technology partnership — from research and design through development,
-              cloud deployment, and long-term support.
+              From research and design through development, deployment, and ongoing support.
+              We cover the full build.
             </p>
             <div className="mt-4 d-flex justify-content-center justify-content-lg-start">
               <Link to="/contact" className="btn-electric">Start a Project</Link>
@@ -268,7 +268,7 @@ const IndustryPageTemplate = ({ data }) => {
         <div className="ipt-cta-card">
           <h2 className="ipt-cta-title">Ready to build? Let's talk.</h2>
           <p className="ipt-cta-sub">
-            Book a free 30-minute consultation with our team. No sales pitch — just a conversation
+            Book a free 30-minute call with our team. No sales pitch. Just a honest conversation
             about what you're building and how we can help.
           </p>
           <Link to="/contact" className="btn-electric mt-4 d-inline-block">Schedule a Call →</Link>

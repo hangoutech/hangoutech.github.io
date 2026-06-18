@@ -16,7 +16,7 @@ const TOPICS = [
 const UPCOMING = [
   { tag: "Healthcare", tagColor: "#2D7DD2", title: "How to Choose the Right HMS Software for Your Hospital in 2026", eta: "Coming July 2026" },
   { tag: "EdTech", tagColor: "#F59E0B", title: "Building a Live Class Platform: Architecture Decisions We Made for 500+ Concurrent Students", eta: "Coming July 2026" },
-  { tag: "D2C & Retail", tagColor: "#EC4899", title: "Why Your D2C Brand's Cart Abandonment Rate Is Above 70% — And How to Fix It", eta: "Coming August 2026" },
+  { tag: "D2C & Retail", tagColor: "#EC4899", title: "Why Your D2C Brand's Cart Abandonment Rate Is Above 70% and How to Fix It", eta: "Coming August 2026" },
   { tag: "Healthcare", tagColor: "#2D7DD2", title: "Patient Portal vs. HMS: What's the Difference and Which Does Your Clinic Need First?", eta: "Coming August 2026" },
   { tag: "Logistics", tagColor: "#10B981", title: "GPS Fleet Tracking Hardware vs. SaaS: What Indian Logistics Companies Need to Know", eta: "Coming September 2026" },
 ];
@@ -27,10 +27,10 @@ const BlogPage = () => {
   return (
     <>
       <Helmet>
-        <title>Blog & Insights | Hangoutech — Healthcare, EdTech & D2C Tech Guides</title>
+        <title>Blog and Insights | Hangoutech: Healthcare, EdTech and D2C Tech Guides</title>
         <meta
           name="description"
-          content="Industry-specific tech guides, product build stories, and insights from the Hangoutech team — covering Healthcare software, EdTech platforms, Logistics tech, and D2C ecommerce."
+          content="Industry-specific tech guides, product build stories, and insights from the Hangoutech team. Covering Healthcare software, EdTech platforms, Logistics tech, and D2C ecommerce."
         />
         <link rel="canonical" href="https://hangoutech.com/blog" />
       </Helmet>
@@ -43,8 +43,8 @@ const BlogPage = () => {
             Tech Thinking for Healthcare, EdTech, Logistics & D2C
           </h1>
           <p className="section-subtitle mx-auto mt-3">
-            Real-world insights from building industry-specific software — not generic tech content,
-            but guides written for operators and founders in the verticals we serve.
+            Real-world insights from building industry-specific software. Written for operators and founders
+            in the verticals we serve.
           </p>
         </div>
       </section>
@@ -55,8 +55,7 @@ const BlogPage = () => {
           <div className="blog-cs-icon"><FaRss size={32} /></div>
           <h2 className="blog-cs-title">First Posts Drop in July 2026</h2>
           <p className="blog-cs-sub">
-            We're writing the first batch of posts now — no AI fluff, no generic content.
-            Real guides from real project experience.
+            We're writing the first batch of posts now. Real guides from real project experience.
           </p>
           <div className="blog-topic-pills mt-4">
             {TOPICS.map((t) => (
@@ -95,8 +94,8 @@ const BlogPage = () => {
             <p className="section-label">Stay Updated</p>
             <h2 className="section-title">Get Notified When We Publish</h2>
             <p className="section-subtitle mt-3">
-              We'll let you know when new guides go live. No newsletters, no marketing emails —
-              just a message when there's something worth reading.
+              We'll let you know when new guides go live. No newsletters, no marketing emails.
+              Just a message when there's something worth reading.
             </p>
           </Col>
           <Col lg={6}>

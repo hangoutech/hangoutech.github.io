@@ -24,37 +24,37 @@ const services = [
   {
     icon: <FaMobileScreen size={40} color="#2D7DD2" />,
     title: "Mobile App Development",
-    desc: "Native and cross-platform mobile apps for Android & iOS — built for healthcare, EdTech, logistics, and D2C brands.",
+    desc: "Native and cross-platform mobile apps for Android and iOS. Built for healthcare, EdTech, logistics, and D2C brands.",
     link: "/contact",
   },
   {
     icon: <FaCode size={40} color="#7C3AED" />,
     title: "Web App Development",
-    desc: "Scalable web applications — portals, dashboards, SaaS platforms, and enterprise tools with clean, modern UI.",
+    desc: "Scalable web applications including portals, dashboards, SaaS platforms, and enterprise tools with clean, modern UI.",
     link: "/contact",
   },
   {
     icon: <SiTensorflow size={40} color="#F59E0B" />,
     title: "AI / ML Solutions",
-    desc: "Intelligent automation, recommendation engines, predictive analytics, and custom ML models for your business.",
+    desc: "Automation, recommendation engines, predictive analytics, and custom ML models built around your specific use case.",
     link: "/contact",
   },
   {
     icon: <FaChartLine size={40} color="#10B981" />,
     title: "Digital Marketing",
-    desc: "SEO, PPC, and content strategy designed to drive qualified B2B leads and grow your online presence.",
+    desc: "SEO, PPC, and content strategy focused on qualified B2B leads and consistent online visibility.",
     link: "/contact",
   },
   {
     icon: <FaPenNib size={40} color="#EC4899" />,
     title: "UI / UX Design",
-    desc: "User-centered design that converts — wireframes, prototypes, and pixel-perfect interfaces that delight users.",
+    desc: "Practical design that gets results. Wireframes, prototypes, and clean interfaces built around how your users actually work.",
     link: "/contact",
   },
   {
     icon: <FaInfinity size={40} color="#06B6D4" />,
     title: "DevOps & Cloud",
-    desc: "CI/CD pipelines, AWS / GCP infrastructure, containerisation, and 24/7 monitoring so your product never goes down.",
+    desc: "CI/CD pipelines, AWS / GCP infrastructure, containerisation, and 24/7 monitoring so your product stays up.",
     link: "/contact",
   },
 ];
@@ -113,8 +113,8 @@ const HomePage = () => {
               We Build Digital Products for <span className="text-electric">Healthcare</span>, EdTech &amp; D2C Brands
             </h1>
             <p className="hero-subtext">
-              Hangoutech partners with clinics, hospitals, health-tech startups, EdTech platforms and D2C brands
-              across India to design, build, and launch software that drives real business outcomes.
+              Hangoutech works with clinics, hospitals, health-tech startups, EdTech platforms and D2C brands
+              across India to design, build, and launch software that gets real results.
             </p>
             <div className="d-flex flex-wrap gap-3 mt-4 justify-content-center justify-content-lg-start">
               <Link to="/contact" className="btn-electric">
@@ -209,8 +209,7 @@ const HomePage = () => {
           <p className="section-label">What We Do</p>
           <h2 className="section-title">Comprehensive Tech Solutions</h2>
           <p className="section-subtitle mx-auto mt-3">
-            From mobile and web development to AI/ML, UI/UX, and DevOps — we've got you covered with tailored
-            solutions that drive your business forward.
+            From mobile and web to AI/ML, UI/UX, and DevOps. Pick what you need or let us map out the full build.
           </p>
         </div>
         <Row className="g-4">
@@ -237,18 +236,18 @@ const HomePage = () => {
             <p className="section-label">About Hangoutech</p>
             <h2 className="section-title">Building Tech That Moves Industries Forward</h2>
             <p className="about-text mt-4">
-              Hangoutech is a product-focused software development company based in India, partnering with
-              healthcare providers, health-tech startups, EdTech platforms, logistics companies, and D2C brands
-              to build digital products that drive real, measurable outcomes.
+              Hangoutech is a software company based in India. We work with healthcare providers, health-tech
+              startups, EdTech platforms, logistics companies, and D2C brands to build software that actually
+              works for their business.
             </p>
             <p className="about-text mt-3">
-              We're not a body-shop. We embed deeply with our clients — understanding the workflows, compliance
-              requirements, and user needs of your specific industry before writing a single line of code.
-              That's how we build products people actually use.
+              We are not a body-shop. Before writing a single line of code, we take time to understand your
+              workflows, compliance requirements, and what your users actually need. That is how we build
+              products people use every day.
             </p>
             <p className="about-text mt-3">
-              From MVP to enterprise-grade systems, from clinics to health-tech startups, Hangoutech is
-              your long-term technology partner.
+              From MVP to large-scale systems, from clinics to health-tech startups, Hangoutech is your
+              long-term technology partner.
             </p>
             <div className="mt-4 d-flex justify-content-center justify-content-lg-start">
               <Link to="/contact" className="btn-electric">
@@ -267,7 +266,7 @@ const HomePage = () => {
         <div className="bottom-cta-card">
           <h2 className="bottom-cta-title">Ready to Build Something Great?</h2>
           <p className="bottom-cta-sub">
-            Book a free 30-minute consultation with our team. No sales pitch — just a conversation about
+            Book a free 30-minute call with our team. No sales pitch. Just a honest conversation about
             what you're building and how we can help.
           </p>
           <Link to="/contact" className="btn-electric mt-4 d-inline-block">

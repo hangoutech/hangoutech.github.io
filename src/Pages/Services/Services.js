@@ -24,8 +24,8 @@ const Services = () => {
         <h3 className="  text-white about-title pb-4">WHAT WE DO</h3>
         <h5 className=" text-center text-white about-company-subtext">
           Comprehensive tech solutions from mobile and web app development to
-          AI/ML, UI/UX, testing, and support—We’ve got you covered with tailored
-          solutions to drive your business forward.
+          AI/ML, UI/UX, testing, and ongoing support. Pick what you need or
+          let us map out the full build.
         </h5>
       </div>
       <Row className=" mt-5 ">

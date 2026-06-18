@@ -79,10 +79,10 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us | Hangoutech — Custom Software Development India</title>
+        <title>Contact Us | Hangoutech: Custom Software Development India</title>
         <meta
           name="description"
-          content="Get in touch with Hangoutech. Tell us about your project — Healthcare, EdTech, Logistics or D2C. We'll respond within 24 hours."
+          content="Get in touch with Hangoutech. Tell us about your project in Healthcare, EdTech, Logistics or D2C. We'll respond within 24 hours."
         />
         <link rel="canonical" href="https://hangoutech.com/contact" />
       </Helmet>
@@ -92,8 +92,8 @@ const ContactPage = () => {
           <p className="section-label">Get In Touch</p>
           <h1 className="section-title">Tell Us About Your Project</h1>
           <p className="section-subtitle mx-auto mt-3">
-            Fill in the form below and a member of our team will respond within 24 hours. No sales pitch —
-            just a real conversation about what you're building.
+            Fill in the form below and a member of our team will respond within 24 hours. No sales pitch.
+            Just a real conversation about what you're building.
           </p>
         </div>
 
@@ -215,7 +215,7 @@ const ContactPage = () => {
                     <label>Project Description <span className="required">*</span></label>
                     <textarea
                       className={`form-input form-textarea ${errors.message ? "input-error" : ""}`}
-                      placeholder="Tell us about your project — what you're building, the problem you're solving, and your timeline..."
+                      placeholder="Tell us about your project. What you're building, the problem you're solving, and your timeline."
                       value={form.message}
                       onChange={handle("message")}
                       rows={5}

@@ -35,17 +35,17 @@ const products = [
   { title: "ePrescription System", desc: "Digital prescription generation, pharmacy routing, drug interaction checks, and patient delivery tracking." },
   { title: "Pharmacy Management System", desc: "Inventory, billing, expiry tracking, and supplier management for pharmacies and hospital dispensaries." },
   { title: "Home Care Management System", desc: "Scheduling, task tracking, and documentation for home healthcare service providers and nursing teams." },
-  { title: "Medical Practice Management System", desc: "Admin tools for private practices — scheduling, billing, patient records, and revenue cycle management." },
+  { title: "Medical Practice Management System", desc: "Admin tools for private practices: scheduling, billing, patient records, and revenue cycle management." },
   { title: "Healthcare Inventory Management System", desc: "Real-time tracking of medical supplies, equipment, and consumables across wards and departments." },
   { title: "Healthcare Task & Staff Scheduling", desc: "Shift management, duty rosters, task assignments, and workload balancing for clinical and non-clinical staff." },
   { title: "Healthcare HR Management System", desc: "Recruitment, onboarding, payroll, compliance tracking, and performance management for healthcare organisations." },
   { title: "Medical Asset Management System", desc: "Equipment lifecycle management, maintenance scheduling, and depreciation tracking for medical assets." },
   { title: "Vendor & Contract Management System", desc: "Supplier onboarding, contract tracking, procurement workflows, and vendor performance dashboards." },
-  { title: "Healthcare Supply Chain Management", desc: "End-to-end supply chain visibility — from procurement and inventory to delivery and consumption tracking." },
+  { title: "Healthcare Supply Chain Management", desc: "Full supply chain visibility from procurement and inventory to delivery and consumption tracking." },
   { title: "Insurance Claim Management System", desc: "Automated claim submission, status tracking, rejection management, and payer integration workflows." },
   { title: "Healthcare eCommerce Platform", desc: "Online pharmacy, medical device sales, or health product marketplace with prescription upload and delivery." },
   { title: "Clinical Trial Management System", desc: "Protocol management, participant tracking, data collection, and regulatory reporting for clinical research." },
-  { title: "Medical Training Platform", desc: "E-learning for medical professionals — CME modules, certification tracking, and skills assessments." },
+  { title: "Medical Training Platform", desc: "E-learning for medical professionals: CME modules, certification tracking, and skills assessments." },
   { title: "Healthcare Startup Products", desc: "MVP-to-product development for wellness apps, fitness trackers, mental health platforms, and health-tech SaaS startups." },
 ];
 
@@ -146,7 +146,7 @@ const techStack = [
 const services = [
   { icon: <FaCode size={20} />, text: "Custom healthcare web application development" },
   { icon: <FaMobileScreen size={20} />, text: "Mobile app development (Android & iOS) for patient-facing and clinical tools" },
-  { icon: <FaPenNib size={20} />, text: "UI/UX design for healthcare platforms — accessible, WCAG-compliant" },
+  { icon: <FaPenNib size={20} />, text: "UI/UX design for healthcare platforms, accessible and WCAG-compliant" },
   { icon: <FaPlugCircleCheck size={20} />, text: "API integration with third-party healthcare tools (diagnostic machines, payment gateways, WhatsApp)" },
   { icon: <FaCloud size={20} />, text: "Cloud deployment and data security setup (AWS / GCP)" },
   { icon: <FaWrench size={20} />, text: "Post-launch support and maintenance retainers" },
@@ -155,9 +155,9 @@ const services = [
 
 // ── Pain Points ──
 const painPoints = [
-  "Patient records still managed on paper or disconnected Excel sheets — no single source of truth.",
+  "Patient records still managed on paper or disconnected Excel sheets with no single source of truth.",
   "Appointment systems relying on phone calls, leading to missed bookings, no-shows, and wasted staff time.",
-  "No online presence — patients cannot find, book, or communicate with the clinic digitally.",
+  "No online presence. Patients cannot find, book, or communicate with the clinic digitally.",
   "Billing and pharmacy management running on outdated software that doesn't connect with clinical workflows.",
   "Telemedicine demand growing but no platform to support virtual consultations securely.",
 ];
@@ -165,14 +165,14 @@ const painPoints = [
 // ── Process ──
 const process = [
   { step: "01", title: "Discovery", desc: "We spend time understanding your clinical workflows, compliance requirements, and user types before writing a single line of code." },
-  { step: "02", title: "Design", desc: "Wireframes and prototypes built specifically for healthcare users — patients, clinical staff, and administrators — with accessibility in mind." },
+  { step: "02", title: "Design", desc: "Wireframes and prototypes built specifically for healthcare users: patients, clinical staff, and administrators, with accessibility in mind." },
   { step: "03", title: "Build", desc: "Iterative development with regular demos. You see working software every 2 weeks, not a big-bang delivery at month 6." },
   { step: "04", title: "Launch", desc: "Deployment, data migration, staff training, and 90-day post-launch support. We don't disappear after go-live." },
 ];
 
 // ── FAQ ──
 const faqs = [
-  { q: "Is your software HIPAA / DPDP compliant?", a: "We architect all healthcare products with data privacy in mind — role-based access, audit logs, end-to-end encryption, and secure cloud infrastructure. For India-based clients we follow the DPDP Act; for US clients we implement HIPAA-aware architecture." },
+  { q: "Is your software HIPAA / DPDP compliant?", a: "We architect all healthcare products with data privacy in mind: role-based access, audit logs, end-to-end encryption, and secure cloud infrastructure. For India-based clients we follow the DPDP Act; for US clients we implement HIPAA-aware architecture." },
   { q: "Can you integrate with existing hospital systems?", a: "Yes. We have experience integrating with diagnostic machines, lab systems, pharmacy software, payment gateways (Razorpay, Stripe), WhatsApp Business API, and standard healthcare APIs (HL7, FHIR)." },
   { q: "Do you build MVPs or only full-scale systems?", a: "Both. For healthcare startups we offer rapid MVP development (6–12 weeks). For established hospitals we build enterprise-grade systems with phased delivery." },
   { q: "What does a typical engagement look like?", a: "We start with a free 30-min discovery call, followed by a detailed scope document, timeline, and fixed-price proposal. Most projects follow a monthly sprint model with fortnightly demos." },
@@ -201,7 +201,7 @@ const HealthcarePage = () => {
         <title>Healthcare Software Development Company in India | Hangoutech</title>
         <meta
           name="description"
-          content="Custom healthcare software development — HMS, patient portals, telemedicine apps, and appointment systems. Built for clinics, hospitals, and health-tech startups in India."
+          content="Custom healthcare software development: HMS, patient portals, telemedicine apps, and appointment systems. Built for clinics, hospitals, and health-tech startups in India."
         />
         <meta name="keywords" content="healthcare software development India, hospital management software, patient portal development, telemedicine app development India, HMS software India" />
         <link rel="canonical" href="https://hangoutech.com/industries/healthcare" />
@@ -225,7 +225,7 @@ const HealthcarePage = () => {
         </h1>
         <p className="hc-hero-sub">
           We build HMS systems, patient portals, telemedicine platforms, and appointment booking apps for
-          clinics, hospitals, diagnostic centres, and health-tech startups across India — and globally.
+          clinics, hospitals, diagnostic centres, and health-tech startups across India and globally.
         </p>
         <div className="d-flex flex-wrap gap-3 mt-4 justify-content-center">
           <Link to="/contact" className="btn-electric">
@@ -276,7 +276,7 @@ const HealthcarePage = () => {
           <p className="section-label">What We Build</p>
           <h2 className="section-title">21 Healthcare Software Products</h2>
           <p className="section-subtitle mx-auto mt-3">
-            From single-specialty clinics to multi-hospital networks and health-tech startups — we've built software
+            From single-specialty clinics to multi-hospital networks and health-tech startups, we've built software
             across the full spectrum of healthcare technology.
           </p>
         </div>
@@ -360,8 +360,8 @@ const HealthcarePage = () => {
             <p className="section-label">Our Services</p>
             <h2 className="section-title">What We Offer for Healthcare</h2>
             <p className="section-subtitle mt-3">
-              End-to-end technology partnership — from UX research and design through development,
-              cloud deployment, and long-term support.
+              From UX research and design through development, deployment, and ongoing support.
+              We cover the full build.
             </p>
             <Link to="/contact" className="btn-electric d-inline-block mt-4">
               Start a Project
@@ -439,7 +439,7 @@ const HealthcarePage = () => {
         <div className="hc-cta-card">
           <h2 className="hc-cta-title">Building a healthcare product? Let's talk.</h2>
           <p className="hc-cta-sub">
-            Book a free 30-minute consultation with our team. No sales pitch — just a conversation about
+            Book a free 30-minute call with our team. No sales pitch. Just a honest conversation about
             what you're building and how we can help.
           </p>
           <Link to="/contact" className="btn-electric mt-4 d-inline-block">

@@ -10,9 +10,9 @@ import {
 import "./AboutPage.scss";
 
 const values = [
-  { icon: <FaRocket size={28} />, title: "Ship Fast, Learn Faster", desc: "We believe in getting working software in front of real users quickly. Demos every 2 weeks, not big-bang deliveries at month 6." },
-  { icon: <FaHandshake size={28} />, title: "Deep Domain Partnership", desc: "We don't just write code — we learn your industry, your users, and your business model before writing the first line." },
-  { icon: <FaCode size={28} />, title: "Quality Without Overengineering", desc: "We build what's needed, done well. No unnecessary abstractions, no feature bloat. The right tech for the right stage." },
+  { icon: <FaRocket size={28} />, title: "Ship Fast, Learn Faster", desc: "We get working software in front of real users quickly. Demos every 2 weeks, not big deliveries at month 6." },
+  { icon: <FaHandshake size={28} />, title: "Know the Domain First", desc: "We don't just write code. We learn your industry, your users, and your business model before writing the first line." },
+  { icon: <FaCode size={28} />, title: "Quality Without Overengineering", desc: "We build what is needed, done well. No unnecessary abstractions, no feature bloat. The right tech for the right stage." },
   { icon: <FaGlobe size={28} />, title: "Global Mindset, Indian Roots", desc: "Built in India, serving clients globally. We understand both the cost-sensitivity of Indian markets and the quality bar of global ones." },
 ];
 
@@ -27,9 +27,9 @@ const timeline = [
   { year: "2021", title: "Hangoutech Founded", desc: "Tejesh Pichandi and Rehman Sheriff founded Hangoutech with a focus on building high-quality digital products for underserved industry verticals in India." },
   { year: "2022", title: "First Enterprise Client", desc: "Delivered our first enterprise-grade web application for a B2B client, establishing our delivery process and engineering standards." },
   { year: "2023", title: "Healthcare & EdTech Focus", desc: "Doubled down on Healthcare and EdTech verticals, delivering HMS and LMS products for clients across India and internationally." },
-  { year: "2024", title: "Global Client Reach", desc: "Expanded to serve clients in the USA, UK, Australia, and Canada — while keeping our engineering base in India." },
+  { year: "2024", title: "Global Client Reach", desc: "Expanded to serve clients in the USA, UK, Australia, and Canada, while keeping our engineering base in India." },
   { year: "2025", title: "Product-Led Growth", desc: "Launched dedicated industry practices for Logistics and D2C, with a team of 15+ engineers and designers across verticals." },
-  { year: "2026", title: "Scaling Up", desc: "Building our playbook for industry-specific software that genuinely moves business metrics — not just launching and walking away." },
+  { year: "2026", title: "Scaling Up", desc: "Building our playbook for industry-specific software that actually moves the numbers, not just launching and walking away." },
 ];
 
 const stats = [
@@ -98,19 +98,18 @@ const AboutPage = () => {
               <strong> the best software is built by people who deeply understand the problem, not just the technology.</strong>
             </p>
             <p className="story-text mt-4">
-              Most IT companies build anything for anyone. We took a different path — focusing on specific
-              industry verticals where we could go deep, build genuine domain knowledge, and deliver software
-              that actually fits how people work. A hospital doesn't need a generic CRM; it needs an HMS that
-              maps to its OPD workflow. A D2C brand doesn't need a website; it needs a conversion engine.
+              Most IT companies build anything for anyone. We took a different path. We focused on specific
+              industry verticals where we could go deep, build real domain knowledge, and deliver software
+              that actually fits how people work. A hospital does not need a generic CRM. It needs an HMS that
+              maps to its OPD workflow. A D2C brand does not need a website. It needs a conversion engine.
             </p>
             <p className="story-text mt-4">
               Starting from Tamil Nadu, we now work with clients across India, the USA, the UK, Australia,
-              and Canada — helping clinics, hospitals, EdTech startups, logistics operators, and consumer brands
-              build the software that moves their business forward.
+              and Canada. We help clinics, hospitals, EdTech startups, logistics operators, and consumer brands
+              build software that moves their business forward.
             </p>
             <p className="story-text mt-4">
-              We're not a body-shop. We're a product partner. We embed deeply, think about business outcomes
-              first, and write the code second.
+              We are not a body-shop. We think about business outcomes first and write the code second.
             </p>
           </Col>
         </Row>
@@ -131,9 +130,8 @@ const AboutPage = () => {
                 <p className="founder-role">Co-Founder & CEO</p>
                 <p className="founder-bio">
                   Tejesh leads product strategy, client relationships, and the overall technical direction
-                  at Hangoutech. With deep expertise in enterprise software architecture, he ensures every
-                  product we build is engineered to scale — from MVP to production-grade systems serving
-                  thousands of users.
+                  at Hangoutech. He has deep experience in enterprise software architecture and makes sure
+                  every product we build is built to scale, from MVP to systems serving thousands of users.
                 </p>
                 <div className="founder-focus">
                   <span className="focus-tag">Product Strategy</span>
@@ -141,7 +139,7 @@ const AboutPage = () => {
                   <span className="focus-tag">Client Success</span>
                 </div>
                 <a
-                  href="https://in.linkedin.com/company/hangoutech"
+                  href="https://www.linkedin.com/in/tejeshpichandi/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="founder-linkedin"
@@ -153,14 +151,14 @@ const AboutPage = () => {
           </Col>
           <Col md={6} lg={5}>
             <div className="founder-card card-surface">
-              <div className="founder-avatar">FS</div>
+              <div className="founder-avatar">RS</div>
               <div className="founder-info">
                 <h3 className="founder-name">Rehman Sheriff</h3>
-                <p className="founder-role">Co-Founder & CTO</p>
+                <p className="founder-role">Co-Founder</p>
                 <p className="founder-bio">
-                  Fisal drives engineering excellence, team building, and delivery quality at Hangoutech.
-                  He leads our engineering teams across Healthcare, EdTech, Logistics, and D2C verticals —
-                  establishing the engineering standards, development processes, and technology choices that
+                  Rehman drives engineering quality, team building, and delivery at Hangoutech.
+                  He leads our engineering teams across Healthcare, EdTech, Logistics, and D2C verticals.
+                  He sets the engineering standards, development processes, and technology choices that
                   define how we build.
                 </p>
                 <div className="founder-focus">
@@ -243,7 +241,7 @@ const AboutPage = () => {
         <div className="about-cta-card text-center">
           <h2 className="section-title">Want to Work Together?</h2>
           <p className="section-subtitle mx-auto mt-3">
-            We're selective about who we partner with — we work with clients who are serious about building
+            We are selective about who we partner with. We work with clients who are serious about building
             something great and want a technology partner who thinks like a founder.
           </p>
           <div className="d-flex flex-wrap gap-3 justify-content-center mt-4">

@@ -22,7 +22,7 @@ const cases = [
     client: "Private Multi-Specialty Hospital",
     location: "Tamil Nadu, India",
     duration: "5 months",
-    problem: "A 120-bed multi-specialty hospital was managing OPD registrations on paper, billing on a legacy desktop software that crashed frequently, and lab reports via WhatsApp — causing delays, billing errors, and patient experience issues.",
+    problem: "A 120-bed multi-specialty hospital was managing OPD registrations on paper, billing on a legacy desktop software that crashed frequently, and lab reports via WhatsApp. This caused delays, billing errors, and poor patient experience.",
     solution: "Built an end-to-end HMS covering OPD/IPD patient flow, appointment booking, doctor scheduling, billing & insurance management, pharmacy inventory, and an integrated lab portal. Mobile app for nursing staff for ward round documentation.",
     outcome: [
       "75% reduction in patient waiting time at registration",
@@ -52,7 +52,7 @@ const cases = [
     outcome: [
       "Student retention rate improved from 68% to 89% year-on-year",
       "Online test registrations: 400+ students taking tests weekly",
-      "Fee collection automated — 0 manual follow-ups required",
+      "Fee collection fully automated. Zero manual follow-ups required",
       "Platform scaled to handle 500 concurrent live students",
     ],
     stack: [
@@ -99,10 +99,10 @@ const CaseStudiesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Case Studies | Hangoutech — Healthcare, EdTech & D2C Projects</title>
+        <title>Case Studies | Hangoutech: Healthcare, EdTech and D2C Projects</title>
         <meta
           name="description"
-          content="Real software projects delivered by Hangoutech — Hospital Management Systems, EdTech LMS platforms, and D2C ecommerce storefronts. See the problems we solved and the outcomes we drove."
+          content="Real software projects delivered by Hangoutech. Hospital Management Systems, EdTech LMS platforms, and D2C ecommerce storefronts. See the problems we solved and the results we delivered."
         />
         <link rel="canonical" href="https://hangoutech.com/case-studies" />
       </Helmet>
@@ -115,8 +115,7 @@ const CaseStudiesPage = () => {
             Real Projects. Real Outcomes.
           </h1>
           <p className="section-subtitle mx-auto mt-3" style={{ maxWidth: 560 }}>
-            We don't just ship code — we drive measurable business outcomes. Here's a look at what we've
-            built and the results it delivered.
+            We don't just ship code. Here's a look at what we've built and the results it delivered.
           </p>
         </div>
       </section>
@@ -153,7 +152,7 @@ const CaseStudiesPage = () => {
               </div>
 
               <h2 className="cs-title">{cs.title}</h2>
-              <p className="cs-client">— {cs.client}</p>
+              <p className="cs-client">{cs.client}</p>
 
               <div className="cs-block">
                 <div className="cs-block-label">The Problem</div>

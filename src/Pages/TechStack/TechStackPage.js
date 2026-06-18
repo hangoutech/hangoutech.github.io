@@ -32,11 +32,11 @@ const categories = [
     label: "Frontend",
     icon: <FaCode size={16} />,
     color: "#2D7DD2",
-    desc: "We build fast, accessible, and conversion-optimised frontends using modern frameworks — chosen based on your performance and SEO requirements.",
+    desc: "We build fast, accessible, and conversion-optimised frontends using modern frameworks chosen based on your performance and SEO requirements.",
     techs: [
       { name: "React.js", icon: <SiReact size={36} />, color: "#61DAFB", note: "Web apps & dashboards" },
       { name: "Next.js", icon: <SiNextdotjs size={36} />, color: "#ffffff", note: "SSR / SSG for SEO" },
-      { name: "TypeScript", icon: <SiTypescript size={36} />, color: "#3178C6", note: "Typed JS — all projects" },
+      { name: "TypeScript", icon: <SiTypescript size={36} />, color: "#3178C6", note: "Typed JS across all projects" },
       { name: "Vue.js", icon: <SiVuedotjs size={36} />, color: "#42B883", note: "Lightweight SPAs" },
       { name: "Angular", icon: <SiAngular size={36} />, color: "#DD0031", note: "Enterprise web apps" },
       { name: "Tailwind CSS", icon: <SiTailwindcss size={36} />, color: "#06B6D4", note: "Utility-first styling" },
@@ -48,15 +48,15 @@ const categories = [
     label: "Mobile",
     icon: <FaMobileScreen size={16} />,
     color: "#F59E0B",
-    desc: "We build mobile apps across the full spectrum — native Android (Kotlin / Java), native iOS (Swift), and cross-platform (Flutter / React Native). Native when performance or device APIs demand it; Flutter for speed and single-codebase efficiency.",
+    desc: "We build mobile apps across the full spectrum: native Android (Kotlin / Java), native iOS (Swift), and cross-platform (Flutter / React Native). Native when performance or device APIs demand it; Flutter for speed and single-codebase efficiency.",
     techs: [
       { name: "Flutter", icon: <SiFlutter size={36} />, color: "#54C5F8", note: "Cross-platform (Android + iOS)" },
       { name: "Dart", icon: <SiDart size={36} />, color: "#0175C2", note: "Flutter's language" },
       { name: "React Native", icon: <FaReact size={36} />, color: "#61DAFB", note: "JS-based cross-platform" },
-      { name: "Android Native", icon: <SiAndroid size={36} />, color: "#3DDC84", note: "Kotlin / Java — full native" },
+      { name: "Android Native", icon: <SiAndroid size={36} />, color: "#3DDC84", note: "Kotlin / Java: full native" },
       { name: "Kotlin", icon: <SiKotlin size={36} />, color: "#7F52FF", note: "Modern Android development" },
       { name: "Java (Android)", icon: <SiOpenjdk size={36} />, color: "#ED8B00", note: "Legacy Android & enterprise" },
-      { name: "iOS Native", icon: <FaApple size={36} />, color: "#ffffff", note: "Swift — full native iOS" },
+      { name: "iOS Native", icon: <FaApple size={36} />, color: "#ffffff", note: "Swift: full native iOS" },
       { name: "Swift", icon: <SiSwift size={36} />, color: "#FA7343", note: "iOS / macOS development" },
       { name: "Xamarin", icon: <SiXamarin size={36} />, color: "#3498DB", note: ".NET cross-platform mobile" },
       { name: "Firebase", icon: <SiFirebase size={36} />, color: "#FFCA28", note: "Auth, push, real-time DB" },
@@ -67,7 +67,7 @@ const categories = [
     label: "Backend",
     icon: <FaGears size={16} />,
     color: "#10B981",
-    desc: "Scalable APIs, microservices, and server infrastructure. We pick the right language and framework for your traffic patterns, team, and long-term maintenance needs — Node.js for real-time, Python for ML, Java/Spring for enterprise, .NET for Microsoft stacks.",
+    desc: "Scalable APIs, microservices, and server infrastructure. We pick the right language and framework for your traffic patterns, team, and long-term maintenance needs: Node.js for real-time, Python for ML, Java/Spring for enterprise, .NET for Microsoft stacks.",
     techs: [
       { name: "Node.js", icon: <SiNodedotjs size={36} />, color: "#339933", note: "REST APIs & real-time" },
       { name: "Python", icon: <SiPython size={36} />, color: "#3776AB", note: "AI/ML & data pipelines" },
@@ -87,7 +87,7 @@ const categories = [
     label: "Database",
     icon: <FaDatabase size={16} />,
     color: "#EC4899",
-    desc: "From relational to document stores to in-memory caching — we choose the database that fits your data model, not the one we're most comfortable with.",
+    desc: "From relational to document stores to in-memory caching. We choose the database that fits your data model, not the one we're most comfortable with.",
     techs: [
       { name: "PostgreSQL", icon: <SiPostgresql size={36} />, color: "#4169E1", note: "Primary relational DB" },
       { name: "MongoDB", icon: <SiMongodb size={36} />, color: "#47A248", note: "Document store" },
@@ -115,7 +115,7 @@ const categories = [
     label: "DevOps",
     icon: <FaGears size={16} />,
     color: "#06B6D4",
-    desc: "CI/CD pipelines that deploy on every merge, automated testing, rollback on failure. You don't manage deployments — we set it up so they just happen.",
+    desc: "CI/CD pipelines that deploy on every merge, automated testing, rollback on failure. You do not manage deployments. We set it up so they just happen.",
     techs: [
       { name: "GitHub", icon: <SiGithub size={36} />, color: "#ffffff", note: "Source control & CI" },
       { name: "GitHub Actions", icon: <SiGithubactions size={36} />, color: "#2088FF", note: "Automated CI/CD pipelines" },
@@ -144,7 +144,7 @@ const categories = [
     label: "Design",
     icon: <FaPenNib size={16} />,
     color: "#EC4899",
-    desc: "Our design team works in Figma. Every product gets a proper design system — not a one-off mockup — so your UI stays consistent as the product grows.",
+    desc: "Our design team works in Figma. Every product gets a proper design system, not a one-off mockup, so your UI stays consistent as the product grows.",
     techs: [
       { name: "Figma", icon: <SiFigma size={36} />, color: "#F24E1E", note: "UI/UX design & prototyping" },
       { name: "Adobe XD", icon: <SiAdobexd size={36} />, color: "#FF61F6", note: "Design handoff" },
@@ -185,7 +185,7 @@ const TechStackPage = () => {
   return (
     <>
       <Helmet>
-        <title>Our Tech Stack | Hangoutech — React, Flutter, Node.js, AWS & More</title>
+        <title>Our Tech Stack | Hangoutech, React, Flutter, Node.js, AWS & More</title>
         <meta
           name="description"
           content="Hangoutech builds with React, Next.js, Flutter, Node.js, Python, PostgreSQL, AWS, and more. See the full technology stack we use across Healthcare, EdTech, Logistics and D2C projects."
@@ -201,7 +201,7 @@ const TechStackPage = () => {
             The Tech Stack Behind Every Product We Build
           </h1>
           <p className="section-subtitle mx-auto mt-3" style={{ maxWidth: 580 }}>
-            We don't have a favourite stack — we pick the right technology for your product's performance
+            We don't have a favourite stack. We pick the right technology for your product's performance
             requirements, team, budget, and long-term maintenance needs. Here's what that typically looks like.
           </p>
         </div>
@@ -256,7 +256,7 @@ const TechStackPage = () => {
           <p className="section-label">By Vertical</p>
           <h2 className="section-title">Typical Stack Per Industry</h2>
           <p className="section-subtitle mx-auto mt-3">
-            The tools we reach for most often in each vertical — shaped by years of building
+            The tools we reach for most often in each vertical, shaped by years of building
             in that domain.
           </p>
         </div>
@@ -289,7 +289,7 @@ const TechStackPage = () => {
             <div className="philosophy-points">
               {[
                 { title: "Right tool, right job", text: "We use Next.js when you need SEO and React when you need a fast SPA. We use Flutter when you need one codebase for two platforms and native when you need camera or Bluetooth-level performance." },
-                { title: "No vendor lock-in", text: "We architect so you're not tied to a single cloud provider, SaaS tool, or framework. Your codebase is yours — readable, documented, and transferable." },
+                { title: "No vendor lock-in", text: "We architect so you're not tied to a single cloud provider, SaaS tool, or framework. Your codebase is yours: readable, documented, and transferable." },
                 { title: "Proven over trendy", text: "We use boring, well-understood technology for the infrastructure layer and save experimentation for features, not foundations. Your production system isn't a lab." },
                 { title: "Scalability from day one", text: "We design the data model and API contracts for where you'll be in two years, not just where you are today. Scaling shouldn't require a rewrite." },
               ].map((p) => (
@@ -308,7 +308,7 @@ const TechStackPage = () => {
         <div className="text-center" style={{ maxWidth: 600, margin: "0 auto" }}>
           <h2 className="section-title">Want to Discuss the Right Stack for Your Product?</h2>
           <p className="section-subtitle mx-auto mt-3">
-            Free 30-minute tech consultation — we'll map out the right architecture for your use case, team, and budget.
+            Free 30-minute tech consultation. We will map out the right architecture for your use case, team, and budget.
           </p>
           <Link to="/contact" className="btn-electric d-inline-block mt-4">
             Book a Free Tech Consultation

@@ -23,7 +23,7 @@ const openings = [
     experience: "2–5 years",
     salary: "Competitive",
     tags: ["React.js", "Node.js", "PostgreSQL", "REST APIs"],
-    about: "We're looking for a full stack developer who can own features end-to-end — from database schema design through API development to React UI. You'll work across Healthcare, EdTech, and D2C projects.",
+    about: "We're looking for a full stack developer who can own features end-to-end: from database schema design through API development to React UI. You'll work across Healthcare, EdTech, and D2C projects.",
     responsibilities: [
       "Design and build RESTful APIs using Node.js / Express",
       "Build responsive React.js frontends with clean component architecture",
@@ -33,10 +33,10 @@ const openings = [
     ],
     requirements: [
       "2+ years of production experience with React.js and Node.js",
-      "Comfortable with PostgreSQL — you can write a JOIN without Googling it",
+      "Comfortable with PostgreSQL (you can write a JOIN without Googling it)",
       "Experience deploying on AWS or GCP (EC2, RDS, S3 at minimum)",
       "Familiarity with Git workflows, PRs, and code reviews",
-      "Good written English — we write clear commit messages and technical specs",
+      "Good written English. We write clear commit messages and technical specs",
     ],
     niceToHave: ["Next.js experience", "Flutter knowledge", "Prior work in Healthcare or EdTech domain"],
   },
@@ -57,7 +57,7 @@ const openings = [
       "Integrate with REST APIs and Firebase services",
       "Implement state management (Riverpod / BLoC / Provider)",
       "Work closely with the design team to implement pixel-perfect UIs",
-      "Optimise for performance — smooth 60fps, fast startup, low battery use",
+      "Optimise for performance: smooth 60fps, fast startup, low battery use",
     ],
     requirements: [
       "1+ year of production Flutter development",
@@ -79,9 +79,9 @@ const openings = [
     experience: "1–4 years",
     salary: "Competitive",
     tags: ["Figma", "UX Research", "Prototyping", "Design Systems"],
-    about: "We design products used by doctors, patients, students, and delivery drivers. Good UX here isn't about pretty — it's about clarity under pressure. We're looking for a designer who thinks in flows, not screens.",
+    about: "We design products used by doctors, patients, students, and delivery drivers. Good UX here is not about pretty. It is about clarity under pressure. We're looking for a designer who thinks in flows, not screens.",
     responsibilities: [
-      "Lead UX research — user interviews, journey mapping, pain point analysis",
+      "Lead UX research: user interviews, journey mapping, pain point analysis",
       "Create wireframes, high-fidelity mockups, and interactive prototypes in Figma",
       "Build and maintain design systems that developers can actually implement",
       "Work closely with engineers during handoff to ensure implementation accuracy",
@@ -89,10 +89,10 @@ const openings = [
     ],
     requirements: [
       "1+ year of product design experience (not just graphic design)",
-      "Strong Figma skills — components, auto-layout, variants, prototyping",
+      "Strong Figma skills: components, auto-layout, variants, prototyping",
       "Portfolio showing end-to-end design work: research → wireframe → hi-fi → shipped",
       "Understanding of mobile design patterns for Android and iOS",
-      "Can articulate design decisions — not just 'it looks better'",
+      "Can articulate design decisions, not just say 'it looks better'",
     ],
     niceToHave: ["Experience designing healthcare or B2B SaaS products", "Basic knowledge of HTML/CSS to communicate with engineers", "Accessibility-first design mindset"],
   },
@@ -118,8 +118,8 @@ const openings = [
     requirements: [
       "1+ year of B2B sales or business development experience",
       "Comfortable making cold calls and sending structured cold emails",
-      "Good written English — you write proposals, not just send brochures",
-      "Organised — you follow up, you keep notes, you don't let leads go cold",
+      "Good written English. You write proposals, not just send brochures",
+      "Organised. You follow up, keep notes, and don't let leads go cold",
       "Genuine curiosity about technology products and how businesses use them",
     ],
     niceToHave: ["Prior experience selling to hospitals, clinics, or EdTech companies", "LinkedIn Sales Navigator experience", "Exposure to proposal writing or RFP responses"],
@@ -136,7 +136,7 @@ const benefits = [
 ];
 
 const process = [
-  { step: "01", title: "Application", desc: "Send your CV and a short note on why this role and why Hangoutech. No cover letter template needed — just tell us something real." },
+  { step: "01", title: "Application", desc: "Send your CV and a short note on why this role and why Hangoutech. No cover letter template needed. Just tell us something real." },
   { step: "02", title: "Intro Call (30 min)", desc: "Quick video call with the founding team. We talk about your background, what you're looking for, and what we're building." },
   { step: "03", title: "Technical Review", desc: "A small take-home task or portfolio review. Scoped to 2–3 hours maximum. We pay for your time on any task over 2 hours." },
   { step: "04", title: "Final Conversation", desc: "A deeper discussion about the role, team fit, and mutual expectations. If it's right for both sides, we move fast to an offer." },
@@ -279,7 +279,7 @@ const CareersPage = () => {
             something to the team, send us a note anyway.
           </p>
           <a
-            href="mailto:work.hangoutech@gmail.com?subject=Open Application — Hangoutech"
+            href="mailto:work.hangoutech@gmail.com?subject=Open Application - Hangoutech"
             className="btn-outline-electric d-inline-block mt-3"
           >
             Send an Open Application
@@ -313,7 +313,7 @@ const CareersPage = () => {
           <h2 className="section-title">4 Steps, No Nonsense</h2>
           <p className="section-subtitle mx-auto mt-3">
             Our hiring process is fast and transparent. We don't do multiple rounds of whiteboard
-            theory — we want to see how you actually work.
+            theory. We want to see how you actually work.
           </p>
         </div>
         <Row className="g-4">

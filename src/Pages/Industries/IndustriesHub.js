@@ -68,7 +68,7 @@ const IndustriesHub = () => {
   return (
     <>
       <Helmet>
-        <title>Industries We Serve | Hangoutech — Healthcare, EdTech, Logistics & D2C</title>
+        <title>Industries We Serve | Hangoutech: Healthcare, EdTech, Logistics and D2C</title>
         <meta
           name="description"
           content="Hangoutech builds industry-specific software for Healthcare, EdTech, Logistics and Retail/D2C brands. Explore our vertical-specific solutions."
@@ -85,7 +85,7 @@ const IndustriesHub = () => {
           </h1>
           <p className="section-subtitle mx-auto mt-3">
             "We build software for everyone" is not a positioning statement. We focus on four verticals and go
-            deep — so every product we ship is built around the real workflows, regulations, and users of that industry.
+            deep. Every product we ship is built around the real workflows, regulations, and users of that industry.
           </p>
         </div>
       </section>
