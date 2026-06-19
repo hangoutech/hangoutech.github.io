@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcf66794.css",
-    "main.js": "/static/js/main.0bd5c032.js",
+    "main.css": "/static/css/main.b7a2e51b.css",
+    "main.js": "/static/js/main.e9dbcc73.js",
     "static/js/453.7640cc4b.chunk.js": "/static/js/453.7640cc4b.chunk.js",
     "static/media/file.png": "/static/media/file.ac2f19810bede03a19cf.png",
     "static/media/findicus_logo.png": "/static/media/findicus_logo.11bab46a3b6cebcdce9f.png",
@@ -10,12 +10,12 @@
     "static/media/broadridge_logo.png": "/static/media/broadridge_logo.c63b34fd0a176d156817.png",
     "static/media/vigno_inc_logo.png": "/static/media/vigno_inc_logo.7140d9031234cf4bc654.png",
     "index.html": "/index.html",
-    "main.dcf66794.css.map": "/static/css/main.dcf66794.css.map",
-    "main.0bd5c032.js.map": "/static/js/main.0bd5c032.js.map",
+    "main.b7a2e51b.css.map": "/static/css/main.b7a2e51b.css.map",
+    "main.e9dbcc73.js.map": "/static/js/main.e9dbcc73.js.map",
     "453.7640cc4b.chunk.js.map": "/static/js/453.7640cc4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcf66794.css",
-    "static/js/main.0bd5c032.js"
+    "static/css/main.b7a2e51b.css",
+    "static/js/main.e9dbcc73.js"
   ]
 }
