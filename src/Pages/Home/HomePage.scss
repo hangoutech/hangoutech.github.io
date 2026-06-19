@@ -154,9 +154,15 @@
   color: rgba(45,125,210,0.12);
   line-height: 1;
   margin-bottom: -8px;
+
+  @media (max-width: 768px) {
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
 }
 .service-icon {
   display: inline-block;
+  margin-bottom: 4px;
 }
 .service-card-title {
   font-size: 18px;

@@ -97,6 +97,11 @@
   font-weight: 800;
   line-height: 1;
   margin-bottom: 6px;
+
+  @media (max-width: 576px) {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
 }
 .ipt-app-title {
   font-size: 15px;
