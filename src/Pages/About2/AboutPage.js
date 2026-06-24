@@ -24,11 +24,11 @@ const industries = [
 ];
 
 const timeline = [
-  { year: "2021", title: "Hangoutech Founded", desc: "Tejesh Pichandi and Rehman Sheriff founded Hangoutech with a focus on building high-quality digital products for underserved industry verticals in India." },
-  { year: "2022", title: "First Enterprise Client", desc: "Delivered our first enterprise-grade web application for a B2B client, establishing our delivery process and engineering standards." },
-  { year: "2023", title: "Healthcare & EdTech Focus", desc: "Doubled down on Healthcare and EdTech verticals, delivering HMS and LMS products for clients across India and internationally." },
-  { year: "2024", title: "Global Client Reach", desc: "Expanded to serve clients in the USA, UK, Australia, and Canada, while keeping our engineering base in India." },
-  { year: "2025", title: "Product-Led Growth", desc: "Launched dedicated industry practices for Logistics and D2C, with a team of 15+ engineers and designers across verticals." },
+  { year: "2024", title: "Hangoutech Founded", desc: "Tejesh Pichandi and Rehman Sheriff founded Hangoutech with a focus on building high-quality digital products for specific industry verticals in India." },
+  { year: "2024", title: "First Clients", desc: "Delivered our first web and mobile projects for clients in Healthcare and EdTech, establishing our delivery process and engineering standards." },
+  { year: "2025", title: "Industry Focus Sharpens", desc: "Doubled down on Healthcare, EdTech, Logistics and D2C verticals, delivering HMS, LMS and logistics platforms for clients across India and internationally." },
+  { year: "2025", title: "Global Client Reach", desc: "Expanded to serve clients in the USA, UK, Australia, and Canada, while keeping our engineering base in India." },
+  { year: "2026", title: "Product-Led Growth", desc: "Launched dedicated industry practices across all four verticals with a growing team of engineers and designers." },
   { year: "2026", title: "Scaling Up", desc: "Building our playbook for industry-specific software that actually moves the numbers, not just launching and walking away." },
 ];
 
@@ -36,7 +36,7 @@ const stats = [
   { number: "20+", label: "Projects Delivered" },
   { number: "5", label: "Countries Served" },
   { number: "4", label: "Industry Verticals" },
-  { number: "3+", label: "Years of Expertise" },
+  { number: "2+", label: "Years of Expertise" },
 ];
 
 const AboutPage = () => {
@@ -94,7 +94,7 @@ const AboutPage = () => {
           </Col>
           <Col lg={7}>
             <p className="story-text">
-              Hangoutech was founded in 2021 by Tejesh Pichandi and Rehman Sheriff with one core belief:
+              Hangoutech was founded in 2024 by Tejesh Pichandi and Rehman Sheriff with one core belief:
               <strong> the best software is built by people who deeply understand the problem, not just the technology.</strong>
             </p>
             <p className="story-text mt-4">

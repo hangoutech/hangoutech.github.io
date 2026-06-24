@@ -157,7 +157,7 @@ const HomePage = () => {
             </Col>
             <Col xs={6} md={3}>
               <div className="stat-pill">
-                <div className="stat-number">3+</div>
+                <div className="stat-number">2+</div>
                 <div className="stat-label">Years of Expertise</div>
               </div>
             </Col>
