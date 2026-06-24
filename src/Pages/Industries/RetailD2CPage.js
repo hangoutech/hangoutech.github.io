@@ -93,12 +93,13 @@ const data = {
   ],
 
   techStack: [
-    { layer: "Frontend", tech: "Next.js (SSR/SSG), React.js, Flutter (mobile)" },
+    { layer: "Mobile", tech: "Android Native (Kotlin), iOS (Swift), Flutter, React Native" },
+    { layer: "Frontend", tech: "Next.js (SSR/SSG), React.js, TypeScript, Tailwind CSS" },
     { layer: "Commerce Backend", tech: "Medusa.js, Shopify Storefront API, custom Node.js APIs" },
-    { layer: "Database", tech: "PostgreSQL, Redis (cart & session), Elasticsearch (product search)" },
+    { layer: "Database", tech: "PostgreSQL, Redis (cart & session), MongoDB, Elasticsearch" },
     { layer: "Payments", tech: "Razorpay, PayU, Cashfree, Stripe, UPI QR" },
-    { layer: "Cloud / Infra", tech: "AWS (CloudFront CDN, S3, RDS), Vercel Edge" },
-    { layer: "Integrations", tech: "WhatsApp Business API (WATI / Interakt), Shiprocket, Clevertap, MoEngage" },
+    { layer: "Cloud / Infra", tech: "AWS (CloudFront, S3, RDS), Vercel Edge, Docker, Kubernetes" },
+    { layer: "Integrations", tech: "WhatsApp Business API (WATI / Interakt), Shiprocket, Twilio, Firebase FCM" },
     { layer: "Analytics", tech: "Google Analytics 4, Mixpanel, Meta Pixel, Google Tag Manager" },
     { layer: "Search & Personalisation", tech: "Algolia, Elasticsearch, custom ML recommendation models" },
   ],

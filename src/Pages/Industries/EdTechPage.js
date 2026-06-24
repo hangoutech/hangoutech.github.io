@@ -94,13 +94,14 @@ const data = {
   ],
 
   techStack: [
-    { layer: "Frontend", tech: "React.js, Next.js, Flutter (mobile)" },
+    { layer: "Mobile", tech: "Android Native (Kotlin), iOS (Swift), Flutter, React Native" },
+    { layer: "Frontend", tech: "React.js, Next.js, TypeScript" },
     { layer: "Backend", tech: "Node.js, Python (Django / FastAPI)" },
-    { layer: "Database", tech: "PostgreSQL, MongoDB" },
+    { layer: "Database", tech: "PostgreSQL, MongoDB, Redis, Firebase" },
     { layer: "Video Streaming", tech: "Cloudflare Stream, AWS S3 + CloudFront, Vimeo OTT" },
-    { layer: "Real-time", tech: "WebRTC, Socket.io (live classes), Agora SDK" },
-    { layer: "Cloud / Infra", tech: "AWS, Google Cloud Platform" },
-    { layer: "Payments", tech: "Razorpay, PayU, Stripe" },
+    { layer: "Real-time", tech: "WebRTC, Socket.io, Agora SDK" },
+    { layer: "Cloud / Infra", tech: "AWS, Google Cloud Platform, Docker, Kubernetes" },
+    { layer: "Payments", tech: "Razorpay, PayU, Stripe, Cashfree" },
     { layer: "Notifications", tech: "Firebase FCM, WhatsApp Business API, Twilio SMS" },
   ],
 

@@ -134,12 +134,13 @@ const geoMarkets = [
 
 // ── Tech Stack ──
 const techStack = [
-  { layer: "Frontend", tech: "React.js, Next.js, Flutter (mobile)" },
-  { layer: "Backend", tech: "Node.js, Python (Django / FastAPI)" },
-  { layer: "Database", tech: "PostgreSQL, MongoDB, MySQL" },
-  { layer: "Cloud / Infra", tech: "AWS, Google Cloud Platform" },
-  { layer: "Integrations", tech: "WhatsApp API, Razorpay, Stripe, Twilio, HL7 / FHIR APIs" },
-  { layer: "Security", tech: "End-to-end encryption, role-based access control, audit logs" },
+  { layer: "Mobile", tech: "Android Native (Kotlin), iOS (Swift), Flutter, React Native" },
+  { layer: "Frontend", tech: "React.js, Next.js, TypeScript, Angular" },
+  { layer: "Backend", tech: "Node.js, Python (Django / FastAPI), Java (Spring Boot)" },
+  { layer: "Database", tech: "PostgreSQL, MongoDB, MySQL, Redis, Elasticsearch" },
+  { layer: "Cloud / Infra", tech: "AWS, Google Cloud Platform, Docker, Kubernetes" },
+  { layer: "Integrations", tech: "WhatsApp API, Razorpay, Stripe, Twilio, Firebase FCM, HL7 / FHIR APIs" },
+  { layer: "Security", tech: "End-to-end encryption, role-based access control, audit logs, DPDP / HIPAA-aware architecture" },
 ];
 
 // ── Services ──

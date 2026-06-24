@@ -93,14 +93,15 @@ const data = {
   ],
 
   techStack: [
-    { layer: "Mobile", tech: "Flutter, React Native, Android Native (Kotlin)" },
-    { layer: "Frontend", tech: "React.js, Next.js" },
+    { layer: "Mobile", tech: "Android Native (Kotlin), iOS (Swift), Flutter, React Native" },
+    { layer: "Frontend", tech: "React.js, Next.js, TypeScript" },
     { layer: "Backend", tech: "Node.js, Python (Django / FastAPI)" },
-    { layer: "Database", tech: "PostgreSQL, MongoDB, Redis" },
+    { layer: "Database", tech: "PostgreSQL, MongoDB, Redis, SQLite (offline mobile)" },
     { layer: "Maps and GIS", tech: "Google Maps API, Mapbox, satellite imagery APIs" },
-    { layer: "Cloud / Infra", tech: "AWS, Google Cloud Platform" },
-    { layer: "Payments", tech: "Razorpay, UPI integration, NEFT / IMPS" },
-    { layer: "Offline Support", tech: "SQLite, local-first sync architecture for rural connectivity" },
+    { layer: "Cloud / Infra", tech: "AWS, Google Cloud Platform, Docker" },
+    { layer: "Payments", tech: "Razorpay, UPI, NEFT / IMPS, Cashfree" },
+    { layer: "Offline Support", tech: "SQLite, local-first sync architecture for rural low-connectivity" },
+    { layer: "Notifications", tech: "Firebase FCM, WhatsApp Business API, Twilio SMS" },
   ],
 
   process: [

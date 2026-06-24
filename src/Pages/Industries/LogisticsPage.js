@@ -93,13 +93,14 @@ const data = {
   ],
 
   techStack: [
-    { layer: "Frontend", tech: "React.js, Next.js, Flutter (mobile & driver app)" },
-    { layer: "Backend", tech: "Node.js, Python (FastAPI)" },
-    { layer: "Database", tech: "PostgreSQL, Redis (real-time caching)" },
+    { layer: "Mobile", tech: "Android Native (Kotlin), iOS (Swift), Flutter, React Native" },
+    { layer: "Frontend", tech: "React.js, Next.js, TypeScript" },
+    { layer: "Backend", tech: "Node.js, Python (FastAPI), Go (Golang)" },
+    { layer: "Database", tech: "PostgreSQL, Redis, MongoDB, Elasticsearch" },
     { layer: "Maps & GPS", tech: "Google Maps Platform, Mapbox, HERE Maps" },
-    { layer: "Real-time", tech: "Socket.io, WebSockets (live tracking & updates)" },
-    { layer: "Cloud / Infra", tech: "AWS (EC2, RDS, S3, SQS), Google Cloud" },
-    { layer: "Integrations", tech: "Shiprocket, Delhivery, BlueDart APIs, WhatsApp Business, Twilio" },
+    { layer: "Real-time", tech: "Socket.io, WebSockets, MQTT" },
+    { layer: "Cloud / Infra", tech: "AWS (EC2, RDS, S3, SQS), Google Cloud, Docker, Kubernetes" },
+    { layer: "Integrations", tech: "Shiprocket, Delhivery, BlueDart, WhatsApp Business, Twilio" },
     { layer: "Hardware", tech: "GPS device integration (Teltonika, Concox, GT06N protocol)" },
   ],
 
