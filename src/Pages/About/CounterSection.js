@@ -3,7 +3,7 @@ import "./CounterSection.scss";
 
 const stats = [
   { number: "20+", label: "Projects Delivered" },
-  { number: "4+",  label: "Industries Served" },
+  { number: "5+",  label: "Industries Served" },
   { number: "5+",  label: "Countries" },
   { number: "2+",  label: "Years of Expertise" },
 ];

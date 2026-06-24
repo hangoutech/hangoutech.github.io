@@ -13,6 +13,7 @@ import HealthcarePage from "./Pages/Industries/HealthcarePage";
 import EdTechPage from "./Pages/Industries/EdTechPage";
 import LogisticsPage from "./Pages/Industries/LogisticsPage";
 import RetailD2CPage from "./Pages/Industries/RetailD2CPage";
+import AgriculturePage from "./Pages/Industries/AgriculturePage";
 import AboutPage from "./Pages/About2/AboutPage";
 import CaseStudiesPage from "./Pages/CaseStudies/CaseStudiesPage";
 import BlogPage from "./Pages/Blog/BlogPage";
@@ -39,6 +40,7 @@ function App() {
         <Route path="/industries/edtech" element={<EdTechPage />} />
         <Route path="/industries/logistics" element={<LogisticsPage />} />
         <Route path="/industries/retail-d2c" element={<RetailD2CPage />} />
+        <Route path="/industries/agriculture" element={<AgriculturePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/case-studies" element={<CaseStudiesPage />} />
         <Route path="/blog" element={<BlogPage />} />

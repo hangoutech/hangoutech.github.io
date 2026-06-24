@@ -16,6 +16,7 @@ import {
   FaGraduationCap,
   FaTruck,
   FaBagShopping,
+  FaWheatAwn,
 } from "react-icons/fa6";
 import { SiTensorflow } from "react-icons/si";
 import CounterSection from "../About/CounterSection";
@@ -88,6 +89,13 @@ const industries = [
     path: "/industries/retail-d2c",
     live: true,
   },
+  {
+    icon: <FaWheatAwn size={32} color="#22C55E" />,
+    title: "Agriculture",
+    desc: "Farmer mobile apps, agri marketplaces, FPO management systems and supply chain traceability platforms.",
+    path: "/industries/agriculture",
+    live: true,
+  },
 ];
 
 const HomePage = () => {
@@ -145,7 +153,7 @@ const HomePage = () => {
             </Col>
             <Col xs={6} md={3}>
               <div className="stat-pill">
-                <div className="stat-number">4+</div>
+                <div className="stat-number">5+</div>
                 <div className="stat-label">Industries Served</div>
               </div>
             </Col>

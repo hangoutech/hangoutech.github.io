@@ -8,6 +8,7 @@ import {
   FaGraduationCap,
   FaTruck,
   FaBagShopping,
+  FaWheatAwn,
 } from "react-icons/fa6";
 import "./IndustriesHub.scss";
 
@@ -59,6 +60,18 @@ const industries = [
     color: "#EC4899",
     targetKw: "D2C Ecommerce Development India",
     markets: ["D2C Brands", "Retail Chains", "FMCG Companies", "Online Marketplaces"],
+  },
+  {
+    icon: <FaWheatAwn size={44} />,
+    title: "Agriculture",
+    tagline: "Farmer apps, agri marketplaces & supply chain traceability",
+    desc: "Custom AgriTech solutions for farmers, FPOs, and agribusinesses. Farmer mobile apps, buyer-seller marketplaces, farm management systems, and supply chain traceability platforms built for India.",
+    apps: ["Farmer Mobile App", "Agri Marketplace Platform", "Farm Management System", "Supply Chain Traceability", "FPO Management System", "Agri Advisory App"],
+    path: "/industries/agriculture",
+    live: true,
+    color: "#22C55E",
+    targetKw: "Agriculture App Development India",
+    markets: ["Farmers and FPOs", "Agribusinesses", "AgriTech Startups", "Food and Processing Companies"],
   },
 ];
 

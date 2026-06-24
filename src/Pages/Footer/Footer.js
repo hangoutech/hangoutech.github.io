@@ -46,6 +46,7 @@ const Footer = () => {
           <Link to="/industries/edtech" className="footer_link">EdTech</Link>
           <Link to="/industries/logistics" className="footer_link">Logistics</Link>
           <Link to="/industries/retail-d2c" className="footer_link">Retail & D2C</Link>
+          <Link to="/industries/agriculture" className="footer_link">Agriculture</Link>
         </div>
 
         {/* Company */}

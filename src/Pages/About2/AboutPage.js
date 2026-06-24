@@ -5,7 +5,7 @@ import { Col, Row } from "react-bootstrap";
 import { isMobile, isTablet } from "react-device-detect";
 import {
   FaLinkedin, FaHospital, FaGraduationCap, FaTruck, FaBagShopping,
-  FaRocket, FaHandshake, FaCode, FaGlobe,
+  FaRocket, FaHandshake, FaCode, FaGlobe, FaWheatAwn,
 } from "react-icons/fa6";
 import "./AboutPage.scss";
 
@@ -21,6 +21,7 @@ const industries = [
   { icon: <FaGraduationCap size={20} />, name: "EdTech", color: "#F59E0B", path: "/industries/edtech" },
   { icon: <FaTruck size={20} />, name: "Logistics", color: "#10B981", path: "/industries/logistics" },
   { icon: <FaBagShopping size={20} />, name: "Retail & D2C", color: "#EC4899", path: "/industries/retail-d2c" },
+  { icon: <FaWheatAwn size={20} />, name: "Agriculture", color: "#22C55E", path: "/industries/agriculture" },
 ];
 
 const timeline = [
@@ -32,7 +33,7 @@ const timeline = [
 const stats = [
   { number: "20+", label: "Projects Delivered" },
   { number: "5", label: "Countries Served" },
-  { number: "4", label: "Industry Verticals" },
+  { number: "5", label: "Industry Verticals" },
   { number: "2+", label: "Years of Expertise" },
 ];
 
@@ -220,7 +221,7 @@ const AboutPage = () => {
       <section className={`about-industries ${responsive ? "is-padding-responsive" : "is-padding-lg"}`}>
         <div className="text-center mb-4">
           <p className="section-label">What We Focus On</p>
-          <h2 className="section-title">Four Industries, Deep Expertise</h2>
+          <h2 className="section-title">Five Industries, Deep Expertise</h2>
         </div>
         <div className="industry-pill-row">
           {industries.map((ind) => (

@@ -10,6 +10,7 @@ const industryLinks = [
   { label: "EdTech", path: "/industries/edtech" },
   { label: "Logistics", path: "/industries/logistics" },
   { label: "Retail & D2C", path: "/industries/retail-d2c" },
+  { label: "Agriculture", path: "/industries/agriculture" },
 ];
 
 const HeaderNavbar = () => {

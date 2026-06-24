@@ -4,13 +4,13 @@ import { Helmet } from "react-helmet-async";
 import { Col, Row } from "react-bootstrap";
 import { isMobile, isTablet } from "react-device-detect";
 import {
-  FaHospital, FaGraduationCap, FaTruck, FaBagShopping,
+  FaHospital, FaGraduationCap, FaTruck, FaBagShopping, FaWheatAwn,
   FaReact, FaNodeJs, FaAws,
 } from "react-icons/fa6";
 import { SiFlutter, SiPostgresql, SiMongodb } from "react-icons/si";
 import "./CaseStudiesPage.scss";
 
-const ALL_TAGS = ["All", "Healthcare", "EdTech", "Logistics", "Retail & D2C"];
+const ALL_TAGS = ["All", "Healthcare", "EdTech", "Logistics", "Retail & D2C", "Agriculture"];
 
 const cases = [
   {
@@ -85,6 +85,30 @@ const cases = [
       { icon: <FaNodeJs size={16} />, name: "Node.js" },
       { icon: <SiPostgresql size={16} />, name: "PostgreSQL" },
       { icon: <SiMongodb size={16} />, name: "Redis" },
+      { icon: <FaAws size={16} />, name: "AWS" },
+    ],
+  },
+  {
+    id: "findicus-agri-mobile-app",
+    tag: "Agriculture",
+    tagColor: "#22C55E",
+    tagIcon: <FaWheatAwn size={14} />,
+    title: "Farmer Mobile App for Findicus",
+    client: "Findicus",
+    location: "India",
+    duration: "Ongoing",
+    problem: "Findicus needed a mobile application to digitise their agriculture operations and connect farmers with buyers on a single platform. Manual processes, lack of price transparency, and no digital record-keeping were limiting their ability to scale.",
+    solution: "Built a mobile application for Findicus covering farmer onboarding, produce listings, buyer-seller matching, market price feeds, and order management. The app was designed offline-first to work in low-connectivity rural areas and supports vernacular language interfaces for ease of use.",
+    outcome: [
+      "Farmers onboarded digitally with crop records and produce listings on the platform",
+      "Real-time market price visibility for farmers to make informed selling decisions",
+      "Buyer-seller connections established through the app, reducing middlemen dependency",
+      "Offline-capable app working reliably in low-connectivity rural environments",
+    ],
+    stack: [
+      { icon: <SiFlutter size={16} />, name: "Flutter" },
+      { icon: <FaNodeJs size={16} />, name: "Node.js" },
+      { icon: <SiPostgresql size={16} />, name: "PostgreSQL" },
       { icon: <FaAws size={16} />, name: "AWS" },
     ],
   },
