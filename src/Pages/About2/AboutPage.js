@@ -24,12 +24,9 @@ const industries = [
 ];
 
 const timeline = [
-  { year: "2024", title: "Hangoutech Founded", desc: "Tejesh Pichandi and Rehman Sheriff founded Hangoutech with a focus on building high-quality digital products for specific industry verticals in India." },
-  { year: "2024", title: "First Clients", desc: "Delivered our first web and mobile projects for clients in Healthcare and EdTech, establishing our delivery process and engineering standards." },
-  { year: "2025", title: "Industry Focus Sharpens", desc: "Doubled down on Healthcare, EdTech, Logistics and D2C verticals, delivering HMS, LMS and logistics platforms for clients across India and internationally." },
-  { year: "2025", title: "Global Client Reach", desc: "Expanded to serve clients in the USA, UK, Australia, and Canada, while keeping our engineering base in India." },
-  { year: "2026", title: "Product-Led Growth", desc: "Launched dedicated industry practices across all four verticals with a growing team of engineers and designers." },
-  { year: "2026", title: "Scaling Up", desc: "Building our playbook for industry-specific software that actually moves the numbers, not just launching and walking away." },
+  { year: "2024", title: "Hangoutech Founded", desc: "Tejesh Pichandi and Rehman Sheriff founded Hangoutech with a focus on building high-quality digital products for specific industry verticals in India. Delivered first web and mobile projects for clients in Healthcare and EdTech." },
+  { year: "2025", title: "Industry Focus and Global Reach", desc: "Doubled down on Healthcare, EdTech, Logistics and D2C verticals, delivering HMS, LMS and logistics platforms. Expanded to serve clients in the USA, UK, Australia, and Canada." },
+  { year: "2026", title: "Scaling Up", desc: "Launched dedicated industry practices across all four verticals with a growing team of engineers and designers. Building software that actually moves the numbers, not just launching and walking away." },
 ];
 
 const stats = [
