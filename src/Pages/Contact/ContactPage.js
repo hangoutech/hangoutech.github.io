@@ -54,8 +54,36 @@ const ContactPage = () => {
     }
     setErrors({});
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 800));
-    setSubmitted(true);
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: "e31d626e-df48-4ef1-b99c-a05ba9a4addc",
+          subject: `New Enquiry from ${form.fullName} — ${form.company}`,
+          from_name: "Hangoutech Website",
+          name: form.fullName,
+          email: form.email,
+          phone: form.phone,
+          company: form.company,
+          industry: form.industry,
+          project_type: form.projectType,
+          budget: form.budget || "Not specified",
+          source: form.source || "Not specified",
+          message: form.message,
+        }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setSubmitted(true);
+      } else {
+        alert("Something went wrong. Please email us directly at info@hangoutech.com");
+      }
+    } catch {
+      alert("Something went wrong. Please email us directly at info@hangoutech.com");
+    }
+
     setLoading(false);
   };
 
